@@ -35,16 +35,15 @@ Everything runs on inexpensive hardware (Raspberry Pi 4 + LED) so you can repr
 
 ## System Architecture
 
-```mermaid
-graph LR
-  subgraph CPS Lab Network
-    Attacker[(MacBook 
-192.168.1.100)] -- Wi‑Fi ‑‑▶ Pi4[(Raspberry Pi 4 
-192.168.1.50)]
+flowchart LR
+  subgraph "CPS Lab Network"
+    Attacker["MacBook Air\n192.168.1.100\n(Wi-Fi)"]
+    Mgmt["Linux Desktop\n192.168.1.110\n(Wi-Fi)"]
+    Pi["Raspberry Pi 4\n192.168.1.50\n(Ethernet)"]
+    Attacker -- "Modbus TCP (502)" --> Pi
+    Mgmt -- "SSH / mgmt" --> Pi
   end
-  Pi4 -- GPIO17 --> LED[/Status LED/]
-  classDef default fill:#f5f5f5,stroke:#333,stroke‑width:1px,color:#111;
-```
+  Pi -- "GPIO17" --> LED((LED))
 
 | Role     | Host                 | Key Software                        |
 | -------- | -------------------- | ----------------------------------- |
