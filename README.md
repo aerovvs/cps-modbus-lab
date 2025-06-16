@@ -2,7 +2,7 @@
 
 Hands-on industrial--protocol demo:  
 a Raspberry Pi 5 emulates a PLC, drives an LED (GPIO 17) via Modbus-TCP,  
-then shows how an attacker can **capture & replay** a single packet to toggle the output—  
+then shows how an attacker can **capture & replay** a single packet to toggle the output
 and how a defender can detect it.
 
 ---
