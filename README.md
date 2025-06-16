@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)
 
-> **Hardware‑in‑the‑loop testbed for learning, demonstrating, and defending against real‑world Modbus‑TCP attacks on industrial control systems (ICS).**
+> **Hardware in the loop testbed for learning, demonstrating, and defending against real world Modbus‑TCP attacks on industrial control systems.**
 
 ---
 
