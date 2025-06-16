@@ -37,7 +37,7 @@ Everything runs on inexpensive hardware (Raspberry Pi 4 + LED) so you can repr
 
                       +------------------------------+
                       | Attacker – MacBook Air       |
-                      | 192.168.1.100 (Wi‑Fi)        |
+                      | (Wi‑Fi)                      |
                       | Scapy attack scripts         |
                       +--------------+---------------+
                                      |  Wi‑Fi
@@ -47,7 +47,7 @@ Everything runs on inexpensive hardware (Raspberry Pi 4 + LED) so you can repr
                                      |  Ethernet
                       +--------------v---------------+
                       | Raspberry Pi 4 (Target & IDS)|
-                      | 192.168.1.50 (Ethernet)      |
+                      | (Ethernet)                   |
                       | modbus_server.py             |
                       | Suricata 7 IDS               |
                       | LED on GPIO17                |
@@ -85,7 +85,7 @@ $ cd cps-modbus-lab/server && sudo python3 modbus_server.py &
 $ cd ../defense/scripts && sudo ./start_ids.sh
 
 # 3 On the attacker: launch an attack of your choice
-$ cd cps-modbus-lab/attack && sudo python3 continuous_attack.py -i en0 -t 192.168.1.50
+$ cd cps-modbus-lab/attack && sudo python3 <attack>.py -i en0 -t <ip>
 ```
 
 Logs land in `defense/logs/` and are parsed by `analyze_complete.py`.
@@ -129,11 +129,15 @@ Each rule leverages `detection_filter` for rate‑based anomaly detection—see
 
 ## Hardware Wiring
 
-```
-Pi GPIO17  ──► →|── LED──► GND
-```
+Your Pi‑controlled LED stands in for a real process actuator (valve, pump, relay).
 
-A single current‑limited LED suffices. No breadboard? Use a 220 Ω resistor inline.
+| Qty | Component                   | Notes                              |
+| --- | --------------------------- | ---------------------------------- |
+|  1  | Red Led                     | Acts as ICS field device indicator |
+|  1  | 330 Ω resistor              | Limits current to ~10 mA           |
+|  1  | Breadboard                  | A half board is fine               |
+|  1  | Male-to-male jumper wires   |                                    |
+|  2  | Male-to-female jumper wires |                                    |
 
 ---
 
