@@ -29,7 +29,7 @@ This project provides an end‑to‑end **Cyber‑Physical System (CPS)** lab th
 * **Offensive techniques** — replay, command manipulation, timed logic bombs, and covert Morse signaling against a live Modbus process.
 * **Defensive counter‑measures** — Suricata 7 IDS with custom, rate‑limited rules that reliably flag each attack class with ≤10 s mean detection latency.
 
-Everything runs on inexpensive hardware (Raspberry Pi 4 + LED) so you can reproduce the full kill‑chain at home without PLCs or SCADA gear.
+Everything runs on inexpensive hardware (Raspberry Pi 4 + LED) so you can reproduce the full kill chain at home without PLCs or SCADA gear.
 
 ---
 
@@ -70,7 +70,7 @@ Everything runs on inexpensive hardware (Raspberry Pi 4 + LED) so you can repr
 * **Four purpose‑built attack scripts** showcasing different TTPs.
 * **Custom Suricata rules** with `detection_filter` to catch replay, DoS bursts, manipulation blinks, and covert channels.
 * **Automated validation harness** (`defense/scripts/test_all_attacks.sh`) to reproduce attacks + measure alert latency.
-* **Comprehensive documentation** (Markdown & GitHub Wiki) ready for ISC2/academic submission.
+* **Comprehensive documentation** ready for ISC2/academic submission.
 
 ---
 
@@ -123,7 +123,7 @@ cps-modbus-lab/
 ## Detection Strategy
 
 Suricata runs in **AF‑Packet** mode with a dedicated rule file `defense/rules/modbus-attacks.rules`.
-Each rule leverages `detection_filter` for rate‑based anomaly detection—see detailed breakdown in **docs/05\_Detection\_Strategy.md**.
+Each rule leverages `detection_filter` for rate‑based anomaly detection - see detailed breakdown in **docs/05\_Detection\_Strategy.md**.
 
 ---
 
@@ -156,7 +156,7 @@ Full mapping in **MITRE\_ATTACK\_MAPPING.md**.
 
 ## Contributing
 
-Pull requests are welcome—especially additional attack modules, Suricata rule optimisations, or documentation improvements. Open an issue first to discuss major changes.
+Pull requests are welcome, especially additional attack modules, Suricata rule optimisations, or documentation improvements. Open an issue first to discuss major changes.
 
 ---
 
