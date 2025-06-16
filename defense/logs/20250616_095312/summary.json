@@ -1,0 +1,15 @@
+{
+  "scan_period": {
+    "start": "2025-06-16T09:53:19.861832-0700",
+    "end": "2025-06-16T09:59:27.266109-0700"
+  },
+  "total_alerts": 822,
+  "unique_attackers": [
+    "192.168.86.46"
+  ],
+  "alert_types": {
+    "Modbus Write Command": 216,
+    "Modbus Replay Attack": 376,
+    "Modbus Rapid Fire DOS": 230
+  }
+}

@@ -1,0 +1,822 @@
+06/16/2025-09:53:56.373977  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50077 -> 192.168.86.49:502
+06/16/2025-09:53:56.374189  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50077 -> 192.168.86.49:502
+06/16/2025-09:53:58.383955  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50082 -> 192.168.86.49:502
+06/16/2025-09:53:58.384088  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50082 -> 192.168.86.49:502
+06/16/2025-09:53:58.384088  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50082 -> 192.168.86.49:502
+06/16/2025-09:53:58.389353  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50082 -> 192.168.86.49:502
+06/16/2025-09:53:58.389456  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50082 -> 192.168.86.49:502
+06/16/2025-09:54:00.394852  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50083 -> 192.168.86.49:502
+06/16/2025-09:54:00.394852  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50083 -> 192.168.86.49:502
+06/16/2025-09:54:00.394916  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50083 -> 192.168.86.49:502
+06/16/2025-09:54:00.394916  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50083 -> 192.168.86.49:502
+06/16/2025-09:54:00.398897  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50083 -> 192.168.86.49:502
+06/16/2025-09:54:00.398897  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50083 -> 192.168.86.49:502
+06/16/2025-09:54:00.399001  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50083 -> 192.168.86.49:502
+06/16/2025-09:54:00.399001  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50083 -> 192.168.86.49:502
+06/16/2025-09:54:02.405072  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50084 -> 192.168.86.49:502
+06/16/2025-09:54:02.405072  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50084 -> 192.168.86.49:502
+06/16/2025-09:54:02.405121  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50084 -> 192.168.86.49:502
+06/16/2025-09:54:02.405121  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50084 -> 192.168.86.49:502
+06/16/2025-09:54:02.410798  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50084 -> 192.168.86.49:502
+06/16/2025-09:54:02.410841  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50084 -> 192.168.86.49:502
+06/16/2025-09:54:04.416015  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50085 -> 192.168.86.49:502
+06/16/2025-09:54:04.416015  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50085 -> 192.168.86.49:502
+06/16/2025-09:54:04.416147  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50085 -> 192.168.86.49:502
+06/16/2025-09:54:04.416147  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50085 -> 192.168.86.49:502
+06/16/2025-09:54:04.431023  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50085 -> 192.168.86.49:502
+06/16/2025-09:54:04.431248  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50085 -> 192.168.86.49:502
+06/16/2025-09:54:22.721522  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50089 -> 192.168.86.49:502
+06/16/2025-09:54:22.721653  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50089 -> 192.168.86.49:502
+06/16/2025-09:54:24.746386  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50090 -> 192.168.86.49:502
+06/16/2025-09:54:24.746386  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50090 -> 192.168.86.49:502
+06/16/2025-09:54:24.746533  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50090 -> 192.168.86.49:502
+06/16/2025-09:54:24.746533  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50090 -> 192.168.86.49:502
+06/16/2025-09:54:24.755818  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50090 -> 192.168.86.49:502
+06/16/2025-09:54:24.755863  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50090 -> 192.168.86.49:502
+06/16/2025-09:54:26.756108  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50091 -> 192.168.86.49:502
+06/16/2025-09:54:26.756108  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50091 -> 192.168.86.49:502
+06/16/2025-09:54:26.756176  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50091 -> 192.168.86.49:502
+06/16/2025-09:54:26.756176  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50091 -> 192.168.86.49:502
+06/16/2025-09:54:26.756176  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50091 -> 192.168.86.49:502
+06/16/2025-09:54:26.762804  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50091 -> 192.168.86.49:502
+06/16/2025-09:54:26.762804  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50091 -> 192.168.86.49:502
+06/16/2025-09:54:26.762847  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50091 -> 192.168.86.49:502
+06/16/2025-09:54:26.762847  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50091 -> 192.168.86.49:502
+06/16/2025-09:55:13.507799  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50096 -> 192.168.86.49:502
+06/16/2025-09:55:13.507852  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50096 -> 192.168.86.49:502
+06/16/2025-09:55:15.520596  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50097 -> 192.168.86.49:502
+06/16/2025-09:55:15.520662  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50097 -> 192.168.86.49:502
+06/16/2025-09:55:15.520662  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50097 -> 192.168.86.49:502
+06/16/2025-09:55:15.525130  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50097 -> 192.168.86.49:502
+06/16/2025-09:55:15.525183  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50097 -> 192.168.86.49:502
+06/16/2025-09:55:27.065574  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50098 -> 192.168.86.49:502
+06/16/2025-09:55:27.065746  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50098 -> 192.168.86.49:502
+06/16/2025-09:55:29.092544  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50099 -> 192.168.86.49:502
+06/16/2025-09:55:29.092594  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50099 -> 192.168.86.49:502
+06/16/2025-09:55:29.092594  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50099 -> 192.168.86.49:502
+06/16/2025-09:55:29.099127  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50099 -> 192.168.86.49:502
+06/16/2025-09:55:29.099174  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50099 -> 192.168.86.49:502
+06/16/2025-09:55:31.109297  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50100 -> 192.168.86.49:502
+06/16/2025-09:55:31.109297  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50100 -> 192.168.86.49:502
+06/16/2025-09:55:31.109345  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50100 -> 192.168.86.49:502
+06/16/2025-09:55:31.109345  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50100 -> 192.168.86.49:502
+06/16/2025-09:55:31.115700  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50100 -> 192.168.86.49:502
+06/16/2025-09:55:31.115700  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50100 -> 192.168.86.49:502
+06/16/2025-09:55:31.115804  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50100 -> 192.168.86.49:502
+06/16/2025-09:55:31.115804  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50100 -> 192.168.86.49:502
+06/16/2025-09:55:33.123218  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50101 -> 192.168.86.49:502
+06/16/2025-09:55:33.123218  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50101 -> 192.168.86.49:502
+06/16/2025-09:55:33.123317  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50101 -> 192.168.86.49:502
+06/16/2025-09:55:33.123317  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50101 -> 192.168.86.49:502
+06/16/2025-09:55:33.130787  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50101 -> 192.168.86.49:502
+06/16/2025-09:55:33.130910  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50101 -> 192.168.86.49:502
+06/16/2025-09:55:35.139898  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50102 -> 192.168.86.49:502
+06/16/2025-09:55:35.139898  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50102 -> 192.168.86.49:502
+06/16/2025-09:55:35.139950  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50102 -> 192.168.86.49:502
+06/16/2025-09:55:35.139950  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50102 -> 192.168.86.49:502
+06/16/2025-09:55:35.145935  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50102 -> 192.168.86.49:502
+06/16/2025-09:55:35.145984  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50102 -> 192.168.86.49:502
+06/16/2025-09:55:37.156744  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50103 -> 192.168.86.49:502
+06/16/2025-09:55:37.156791  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50103 -> 192.168.86.49:502
+06/16/2025-09:55:37.162006  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50103 -> 192.168.86.49:502
+06/16/2025-09:55:37.162045  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50103 -> 192.168.86.49:502
+06/16/2025-09:55:39.166169  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50104 -> 192.168.86.49:502
+06/16/2025-09:55:39.167477  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50104 -> 192.168.86.49:502
+06/16/2025-09:55:39.167477  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50104 -> 192.168.86.49:502
+06/16/2025-09:55:39.170811  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50104 -> 192.168.86.49:502
+06/16/2025-09:55:39.176258  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50104 -> 192.168.86.49:502
+06/16/2025-09:55:41.182154  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50105 -> 192.168.86.49:502
+06/16/2025-09:55:41.182154  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50105 -> 192.168.86.49:502
+06/16/2025-09:55:41.182204  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50105 -> 192.168.86.49:502
+06/16/2025-09:55:41.182204  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50105 -> 192.168.86.49:502
+06/16/2025-09:55:41.188069  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50105 -> 192.168.86.49:502
+06/16/2025-09:55:41.188108  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50105 -> 192.168.86.49:502
+06/16/2025-09:55:43.195241  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50106 -> 192.168.86.49:502
+06/16/2025-09:55:43.195241  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50106 -> 192.168.86.49:502
+06/16/2025-09:55:43.195283  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50106 -> 192.168.86.49:502
+06/16/2025-09:55:43.195283  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50106 -> 192.168.86.49:502
+06/16/2025-09:55:43.202921  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50106 -> 192.168.86.49:502
+06/16/2025-09:55:43.202921  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50106 -> 192.168.86.49:502
+06/16/2025-09:55:43.203023  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50106 -> 192.168.86.49:502
+06/16/2025-09:55:43.203023  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50106 -> 192.168.86.49:502
+06/16/2025-09:55:45.219188  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50107 -> 192.168.86.49:502
+06/16/2025-09:55:45.219188  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50107 -> 192.168.86.49:502
+06/16/2025-09:55:45.220330  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50107 -> 192.168.86.49:502
+06/16/2025-09:55:45.220330  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50107 -> 192.168.86.49:502
+06/16/2025-09:55:45.230739  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50107 -> 192.168.86.49:502
+06/16/2025-09:55:45.230875  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50107 -> 192.168.86.49:502
+06/16/2025-09:55:47.235208  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50108 -> 192.168.86.49:502
+06/16/2025-09:55:47.235252  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50108 -> 192.168.86.49:502
+06/16/2025-09:55:49.248262  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50109 -> 192.168.86.49:502
+06/16/2025-09:55:49.248314  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50109 -> 192.168.86.49:502
+06/16/2025-09:55:49.248314  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50109 -> 192.168.86.49:502
+06/16/2025-09:55:49.254404  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50109 -> 192.168.86.49:502
+06/16/2025-09:55:49.254404  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50109 -> 192.168.86.49:502
+06/16/2025-09:55:49.254515  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50109 -> 192.168.86.49:502
+06/16/2025-09:55:49.254515  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50109 -> 192.168.86.49:502
+06/16/2025-09:55:49.643642  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50077 -> 192.168.86.49:502
+06/16/2025-09:55:49.643642  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50077 -> 192.168.86.49:502
+06/16/2025-09:55:51.267517  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50110 -> 192.168.86.49:502
+06/16/2025-09:55:51.267517  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50110 -> 192.168.86.49:502
+06/16/2025-09:55:51.267567  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50110 -> 192.168.86.49:502
+06/16/2025-09:55:51.267567  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50110 -> 192.168.86.49:502
+06/16/2025-09:55:51.273889  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50110 -> 192.168.86.49:502
+06/16/2025-09:55:51.273990  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50110 -> 192.168.86.49:502
+06/16/2025-09:55:53.281227  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50111 -> 192.168.86.49:502
+06/16/2025-09:55:53.281227  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50111 -> 192.168.86.49:502
+06/16/2025-09:55:53.281382  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50111 -> 192.168.86.49:502
+06/16/2025-09:55:53.281382  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50111 -> 192.168.86.49:502
+06/16/2025-09:55:53.286837  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50111 -> 192.168.86.49:502
+06/16/2025-09:55:53.286944  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50111 -> 192.168.86.49:502
+06/16/2025-09:55:55.299124  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50112 -> 192.168.86.49:502
+06/16/2025-09:55:55.299124  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50112 -> 192.168.86.49:502
+06/16/2025-09:55:55.299171  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50112 -> 192.168.86.49:502
+06/16/2025-09:55:55.299171  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50112 -> 192.168.86.49:502
+06/16/2025-09:55:55.305146  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50112 -> 192.168.86.49:502
+06/16/2025-09:55:55.305146  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50112 -> 192.168.86.49:502
+06/16/2025-09:55:55.305201  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50112 -> 192.168.86.49:502
+06/16/2025-09:55:55.305201  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50112 -> 192.168.86.49:502
+06/16/2025-09:55:57.310745  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50113 -> 192.168.86.49:502
+06/16/2025-09:55:57.310879  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50113 -> 192.168.86.49:502
+06/16/2025-09:55:59.326664  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50114 -> 192.168.86.49:502
+06/16/2025-09:55:59.326718  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50114 -> 192.168.86.49:502
+06/16/2025-09:55:59.326718  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50114 -> 192.168.86.49:502
+06/16/2025-09:55:59.333899  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50114 -> 192.168.86.49:502
+06/16/2025-09:55:59.334002  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50114 -> 192.168.86.49:502
+06/16/2025-09:56:20.649321  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50115 -> 192.168.86.49:502
+06/16/2025-09:56:20.649486  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50115 -> 192.168.86.49:502
+06/16/2025-09:56:21.665582  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50116 -> 192.168.86.49:502
+06/16/2025-09:56:21.665582  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50116 -> 192.168.86.49:502
+06/16/2025-09:56:21.665709  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50116 -> 192.168.86.49:502
+06/16/2025-09:56:21.665709  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50116 -> 192.168.86.49:502
+06/16/2025-09:56:21.670434  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50116 -> 192.168.86.49:502
+06/16/2025-09:56:21.670474  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50116 -> 192.168.86.49:502
+06/16/2025-09:56:22.683734  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50117 -> 192.168.86.49:502
+06/16/2025-09:56:22.683734  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50117 -> 192.168.86.49:502
+06/16/2025-09:56:22.683875  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50117 -> 192.168.86.49:502
+06/16/2025-09:56:22.683875  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50117 -> 192.168.86.49:502
+06/16/2025-09:56:22.683875  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50117 -> 192.168.86.49:502
+06/16/2025-09:56:22.690449  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50117 -> 192.168.86.49:502
+06/16/2025-09:56:22.690449  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50117 -> 192.168.86.49:502
+06/16/2025-09:56:22.690580  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50117 -> 192.168.86.49:502
+06/16/2025-09:56:22.690580  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50117 -> 192.168.86.49:502
+06/16/2025-09:56:23.695608  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50118 -> 192.168.86.49:502
+06/16/2025-09:56:23.695608  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50118 -> 192.168.86.49:502
+06/16/2025-09:56:23.695608  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50118 -> 192.168.86.49:502
+06/16/2025-09:56:23.695653  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50118 -> 192.168.86.49:502
+06/16/2025-09:56:23.695653  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50118 -> 192.168.86.49:502
+06/16/2025-09:56:23.695653  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50118 -> 192.168.86.49:502
+06/16/2025-09:56:23.699641  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50118 -> 192.168.86.49:502
+06/16/2025-09:56:23.699641  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50118 -> 192.168.86.49:502
+06/16/2025-09:56:23.701007  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50118 -> 192.168.86.49:502
+06/16/2025-09:56:23.701007  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50118 -> 192.168.86.49:502
+06/16/2025-09:56:24.711406  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50119 -> 192.168.86.49:502
+06/16/2025-09:56:24.711406  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50119 -> 192.168.86.49:502
+06/16/2025-09:56:24.711406  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50119 -> 192.168.86.49:502
+06/16/2025-09:56:24.711556  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50119 -> 192.168.86.49:502
+06/16/2025-09:56:24.711556  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50119 -> 192.168.86.49:502
+06/16/2025-09:56:24.711556  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50119 -> 192.168.86.49:502
+06/16/2025-09:56:24.718672  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50119 -> 192.168.86.49:502
+06/16/2025-09:56:24.718672  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50119 -> 192.168.86.49:502
+06/16/2025-09:56:24.718821  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50119 -> 192.168.86.49:502
+06/16/2025-09:56:24.718821  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50119 -> 192.168.86.49:502
+06/16/2025-09:56:25.727256  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50120 -> 192.168.86.49:502
+06/16/2025-09:56:25.727256  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50120 -> 192.168.86.49:502
+06/16/2025-09:56:25.727408  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50120 -> 192.168.86.49:502
+06/16/2025-09:56:25.727408  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50120 -> 192.168.86.49:502
+06/16/2025-09:56:25.734770  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50120 -> 192.168.86.49:502
+06/16/2025-09:56:25.734817  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50120 -> 192.168.86.49:502
+06/16/2025-09:56:26.741921  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50121 -> 192.168.86.49:502
+06/16/2025-09:56:26.741921  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50121 -> 192.168.86.49:502
+06/16/2025-09:56:26.741973  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50121 -> 192.168.86.49:502
+06/16/2025-09:56:26.741973  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50121 -> 192.168.86.49:502
+06/16/2025-09:56:26.747369  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50121 -> 192.168.86.49:502
+06/16/2025-09:56:26.747411  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50121 -> 192.168.86.49:502
+06/16/2025-09:56:27.756121  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50122 -> 192.168.86.49:502
+06/16/2025-09:56:27.756121  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50122 -> 192.168.86.49:502
+06/16/2025-09:56:27.756183  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50122 -> 192.168.86.49:502
+06/16/2025-09:56:27.756183  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50122 -> 192.168.86.49:502
+06/16/2025-09:56:27.765148  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50122 -> 192.168.86.49:502
+06/16/2025-09:56:27.765148  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50122 -> 192.168.86.49:502
+06/16/2025-09:56:27.765191  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50122 -> 192.168.86.49:502
+06/16/2025-09:56:27.765191  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50122 -> 192.168.86.49:502
+06/16/2025-09:56:28.768271  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50123 -> 192.168.86.49:502
+06/16/2025-09:56:28.768271  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50123 -> 192.168.86.49:502
+06/16/2025-09:56:28.768271  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50123 -> 192.168.86.49:502
+06/16/2025-09:56:28.768329  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50123 -> 192.168.86.49:502
+06/16/2025-09:56:28.768329  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50123 -> 192.168.86.49:502
+06/16/2025-09:56:28.768329  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50123 -> 192.168.86.49:502
+06/16/2025-09:56:28.774200  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50123 -> 192.168.86.49:502
+06/16/2025-09:56:28.774200  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50123 -> 192.168.86.49:502
+06/16/2025-09:56:28.774247  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50123 -> 192.168.86.49:502
+06/16/2025-09:56:28.774247  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50123 -> 192.168.86.49:502
+06/16/2025-09:56:29.780239  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50124 -> 192.168.86.49:502
+06/16/2025-09:56:29.780239  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50124 -> 192.168.86.49:502
+06/16/2025-09:56:29.780239  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50124 -> 192.168.86.49:502
+06/16/2025-09:56:29.780293  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50124 -> 192.168.86.49:502
+06/16/2025-09:56:29.780293  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50124 -> 192.168.86.49:502
+06/16/2025-09:56:29.780293  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50124 -> 192.168.86.49:502
+06/16/2025-09:56:29.785721  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50124 -> 192.168.86.49:502
+06/16/2025-09:56:29.785721  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50124 -> 192.168.86.49:502
+06/16/2025-09:56:29.785763  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50124 -> 192.168.86.49:502
+06/16/2025-09:56:29.785763  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50124 -> 192.168.86.49:502
+06/16/2025-09:56:30.793265  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50125 -> 192.168.86.49:502
+06/16/2025-09:56:30.793320  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50125 -> 192.168.86.49:502
+06/16/2025-09:56:31.802695  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50126 -> 192.168.86.49:502
+06/16/2025-09:56:31.802743  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50126 -> 192.168.86.49:502
+06/16/2025-09:56:31.802743  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50126 -> 192.168.86.49:502
+06/16/2025-09:56:31.806533  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50126 -> 192.168.86.49:502
+06/16/2025-09:56:31.809382  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50126 -> 192.168.86.49:502
+06/16/2025-09:56:32.815586  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50127 -> 192.168.86.49:502
+06/16/2025-09:56:32.815586  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50127 -> 192.168.86.49:502
+06/16/2025-09:56:32.815638  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50127 -> 192.168.86.49:502
+06/16/2025-09:56:32.815638  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50127 -> 192.168.86.49:502
+06/16/2025-09:56:32.820893  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50127 -> 192.168.86.49:502
+06/16/2025-09:56:32.820893  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50127 -> 192.168.86.49:502
+06/16/2025-09:56:32.820939  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50127 -> 192.168.86.49:502
+06/16/2025-09:56:32.820939  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50127 -> 192.168.86.49:502
+06/16/2025-09:56:33.828539  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50128 -> 192.168.86.49:502
+06/16/2025-09:56:33.828539  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50128 -> 192.168.86.49:502
+06/16/2025-09:56:33.828539  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50128 -> 192.168.86.49:502
+06/16/2025-09:56:33.828594  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50128 -> 192.168.86.49:502
+06/16/2025-09:56:33.828594  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50128 -> 192.168.86.49:502
+06/16/2025-09:56:33.828594  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50128 -> 192.168.86.49:502
+06/16/2025-09:56:33.836780  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50128 -> 192.168.86.49:502
+06/16/2025-09:56:33.836780  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50128 -> 192.168.86.49:502
+06/16/2025-09:56:33.836887  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50128 -> 192.168.86.49:502
+06/16/2025-09:56:33.836887  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50128 -> 192.168.86.49:502
+06/16/2025-09:56:34.842786  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50129 -> 192.168.86.49:502
+06/16/2025-09:56:34.842786  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50129 -> 192.168.86.49:502
+06/16/2025-09:56:34.842786  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50129 -> 192.168.86.49:502
+06/16/2025-09:56:34.842847  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50129 -> 192.168.86.49:502
+06/16/2025-09:56:34.842847  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50129 -> 192.168.86.49:502
+06/16/2025-09:56:34.842847  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50129 -> 192.168.86.49:502
+06/16/2025-09:56:34.848568  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50129 -> 192.168.86.49:502
+06/16/2025-09:56:34.848568  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50129 -> 192.168.86.49:502
+06/16/2025-09:56:34.848674  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50129 -> 192.168.86.49:502
+06/16/2025-09:56:34.848674  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50129 -> 192.168.86.49:502
+06/16/2025-09:56:35.865585  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50130 -> 192.168.86.49:502
+06/16/2025-09:56:35.865585  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50130 -> 192.168.86.49:502
+06/16/2025-09:56:35.865641  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50130 -> 192.168.86.49:502
+06/16/2025-09:56:35.865641  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50130 -> 192.168.86.49:502
+06/16/2025-09:56:35.871892  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50130 -> 192.168.86.49:502
+06/16/2025-09:56:35.871943  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50130 -> 192.168.86.49:502
+06/16/2025-09:56:36.880427  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50131 -> 192.168.86.49:502
+06/16/2025-09:56:36.880427  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50131 -> 192.168.86.49:502
+06/16/2025-09:56:36.880476  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50131 -> 192.168.86.49:502
+06/16/2025-09:56:36.880476  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50131 -> 192.168.86.49:502
+06/16/2025-09:56:36.885321  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50131 -> 192.168.86.49:502
+06/16/2025-09:56:36.885361  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50131 -> 192.168.86.49:502
+06/16/2025-09:56:37.890674  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50132 -> 192.168.86.49:502
+06/16/2025-09:56:37.890674  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50132 -> 192.168.86.49:502
+06/16/2025-09:56:37.891271  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50132 -> 192.168.86.49:502
+06/16/2025-09:56:37.891271  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50132 -> 192.168.86.49:502
+06/16/2025-09:56:37.896251  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50132 -> 192.168.86.49:502
+06/16/2025-09:56:37.896251  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50132 -> 192.168.86.49:502
+06/16/2025-09:56:37.896302  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50132 -> 192.168.86.49:502
+06/16/2025-09:56:37.896302  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50132 -> 192.168.86.49:502
+06/16/2025-09:56:38.899034  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50133 -> 192.168.86.49:502
+06/16/2025-09:56:38.899034  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50133 -> 192.168.86.49:502
+06/16/2025-09:56:38.899034  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50133 -> 192.168.86.49:502
+06/16/2025-09:56:38.899154  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50133 -> 192.168.86.49:502
+06/16/2025-09:56:38.899154  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50133 -> 192.168.86.49:502
+06/16/2025-09:56:38.899154  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50133 -> 192.168.86.49:502
+06/16/2025-09:56:38.906507  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50133 -> 192.168.86.49:502
+06/16/2025-09:56:38.906507  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50133 -> 192.168.86.49:502
+06/16/2025-09:56:38.906548  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50133 -> 192.168.86.49:502
+06/16/2025-09:56:38.906548  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50133 -> 192.168.86.49:502
+06/16/2025-09:56:39.908518  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50134 -> 192.168.86.49:502
+06/16/2025-09:56:39.908518  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50134 -> 192.168.86.49:502
+06/16/2025-09:56:39.908518  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50134 -> 192.168.86.49:502
+06/16/2025-09:56:39.908572  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50134 -> 192.168.86.49:502
+06/16/2025-09:56:39.908572  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50134 -> 192.168.86.49:502
+06/16/2025-09:56:39.908572  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50134 -> 192.168.86.49:502
+06/16/2025-09:56:39.915594  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50134 -> 192.168.86.49:502
+06/16/2025-09:56:39.915594  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50134 -> 192.168.86.49:502
+06/16/2025-09:56:39.915640  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50134 -> 192.168.86.49:502
+06/16/2025-09:56:39.915640  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50134 -> 192.168.86.49:502
+06/16/2025-09:56:40.921475  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50135 -> 192.168.86.49:502
+06/16/2025-09:56:40.921525  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50135 -> 192.168.86.49:502
+06/16/2025-09:56:41.938602  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50136 -> 192.168.86.49:502
+06/16/2025-09:56:41.938602  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50136 -> 192.168.86.49:502
+06/16/2025-09:56:41.938651  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50136 -> 192.168.86.49:502
+06/16/2025-09:56:41.938651  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50136 -> 192.168.86.49:502
+06/16/2025-09:56:41.945171  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50136 -> 192.168.86.49:502
+06/16/2025-09:56:41.945285  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50136 -> 192.168.86.49:502
+06/16/2025-09:56:42.946470  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50137 -> 192.168.86.49:502
+06/16/2025-09:56:42.946470  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50137 -> 192.168.86.49:502
+06/16/2025-09:56:42.946516  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50137 -> 192.168.86.49:502
+06/16/2025-09:56:42.946516  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50137 -> 192.168.86.49:502
+06/16/2025-09:56:42.946516  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50137 -> 192.168.86.49:502
+06/16/2025-09:56:42.953165  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50137 -> 192.168.86.49:502
+06/16/2025-09:56:42.953165  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50137 -> 192.168.86.49:502
+06/16/2025-09:56:42.953301  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50137 -> 192.168.86.49:502
+06/16/2025-09:56:42.953301  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50137 -> 192.168.86.49:502
+06/16/2025-09:56:43.964867  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50138 -> 192.168.86.49:502
+06/16/2025-09:56:43.964867  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50138 -> 192.168.86.49:502
+06/16/2025-09:56:43.964867  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50138 -> 192.168.86.49:502
+06/16/2025-09:56:43.966520  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50138 -> 192.168.86.49:502
+06/16/2025-09:56:43.966520  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50138 -> 192.168.86.49:502
+06/16/2025-09:56:43.966520  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50138 -> 192.168.86.49:502
+06/16/2025-09:56:43.974292  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50138 -> 192.168.86.49:502
+06/16/2025-09:56:43.974292  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50138 -> 192.168.86.49:502
+06/16/2025-09:56:43.974414  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50138 -> 192.168.86.49:502
+06/16/2025-09:56:43.974414  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50138 -> 192.168.86.49:502
+06/16/2025-09:56:44.977428  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50139 -> 192.168.86.49:502
+06/16/2025-09:56:44.977428  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50139 -> 192.168.86.49:502
+06/16/2025-09:56:44.977428  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50139 -> 192.168.86.49:502
+06/16/2025-09:56:44.977854  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50139 -> 192.168.86.49:502
+06/16/2025-09:56:44.977854  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50139 -> 192.168.86.49:502
+06/16/2025-09:56:44.977854  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50139 -> 192.168.86.49:502
+06/16/2025-09:56:44.984996  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50139 -> 192.168.86.49:502
+06/16/2025-09:56:44.984996  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50139 -> 192.168.86.49:502
+06/16/2025-09:56:44.985035  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50139 -> 192.168.86.49:502
+06/16/2025-09:56:44.985035  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50139 -> 192.168.86.49:502
+06/16/2025-09:56:45.994020  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50140 -> 192.168.86.49:502
+06/16/2025-09:56:45.994020  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50140 -> 192.168.86.49:502
+06/16/2025-09:56:45.994181  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50140 -> 192.168.86.49:502
+06/16/2025-09:56:45.994181  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50140 -> 192.168.86.49:502
+06/16/2025-09:56:45.997651  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50140 -> 192.168.86.49:502
+06/16/2025-09:56:46.000430  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50140 -> 192.168.86.49:502
+06/16/2025-09:56:47.009306  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50141 -> 192.168.86.49:502
+06/16/2025-09:56:47.009306  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50141 -> 192.168.86.49:502
+06/16/2025-09:56:47.009360  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50141 -> 192.168.86.49:502
+06/16/2025-09:56:47.009360  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50141 -> 192.168.86.49:502
+06/16/2025-09:56:47.016223  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50141 -> 192.168.86.49:502
+06/16/2025-09:56:47.016327  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50141 -> 192.168.86.49:502
+06/16/2025-09:56:48.024465  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50142 -> 192.168.86.49:502
+06/16/2025-09:56:48.024465  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50142 -> 192.168.86.49:502
+06/16/2025-09:56:48.024637  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50142 -> 192.168.86.49:502
+06/16/2025-09:56:48.024637  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50142 -> 192.168.86.49:502
+06/16/2025-09:56:48.028791  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50142 -> 192.168.86.49:502
+06/16/2025-09:56:48.028791  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50142 -> 192.168.86.49:502
+06/16/2025-09:56:48.028949  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50142 -> 192.168.86.49:502
+06/16/2025-09:56:48.028949  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50142 -> 192.168.86.49:502
+06/16/2025-09:56:49.035366  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50143 -> 192.168.86.49:502
+06/16/2025-09:56:49.035366  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50143 -> 192.168.86.49:502
+06/16/2025-09:56:49.035366  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50143 -> 192.168.86.49:502
+06/16/2025-09:56:49.035418  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50143 -> 192.168.86.49:502
+06/16/2025-09:56:49.035418  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50143 -> 192.168.86.49:502
+06/16/2025-09:56:49.035418  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50143 -> 192.168.86.49:502
+06/16/2025-09:56:49.042366  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50143 -> 192.168.86.49:502
+06/16/2025-09:56:49.042366  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50143 -> 192.168.86.49:502
+06/16/2025-09:56:49.042518  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50143 -> 192.168.86.49:502
+06/16/2025-09:56:49.042518  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50143 -> 192.168.86.49:502
+06/16/2025-09:56:50.051539  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50144 -> 192.168.86.49:502
+06/16/2025-09:56:50.051539  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50144 -> 192.168.86.49:502
+06/16/2025-09:56:50.051539  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50144 -> 192.168.86.49:502
+06/16/2025-09:56:50.051589  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50144 -> 192.168.86.49:502
+06/16/2025-09:56:50.051589  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50144 -> 192.168.86.49:502
+06/16/2025-09:56:50.051589  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50144 -> 192.168.86.49:502
+06/16/2025-09:56:50.055285  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50144 -> 192.168.86.49:502
+06/16/2025-09:56:50.055285  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50144 -> 192.168.86.49:502
+06/16/2025-09:56:50.056987  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50144 -> 192.168.86.49:502
+06/16/2025-09:56:50.056987  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50144 -> 192.168.86.49:502
+06/16/2025-09:56:51.076121  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50145 -> 192.168.86.49:502
+06/16/2025-09:56:51.076169  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50145 -> 192.168.86.49:502
+06/16/2025-09:56:52.085771  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50146 -> 192.168.86.49:502
+06/16/2025-09:56:52.085822  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50146 -> 192.168.86.49:502
+06/16/2025-09:56:52.085822  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50146 -> 192.168.86.49:502
+06/16/2025-09:56:52.093690  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50146 -> 192.168.86.49:502
+06/16/2025-09:56:52.093824  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50146 -> 192.168.86.49:502
+06/16/2025-09:56:53.098068  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50147 -> 192.168.86.49:502
+06/16/2025-09:56:53.098068  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50147 -> 192.168.86.49:502
+06/16/2025-09:56:53.098120  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50147 -> 192.168.86.49:502
+06/16/2025-09:56:53.098120  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50147 -> 192.168.86.49:502
+06/16/2025-09:56:53.105043  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50147 -> 192.168.86.49:502
+06/16/2025-09:56:53.105043  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50147 -> 192.168.86.49:502
+06/16/2025-09:56:53.105165  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50147 -> 192.168.86.49:502
+06/16/2025-09:56:53.105165  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50147 -> 192.168.86.49:502
+06/16/2025-09:56:54.112658  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50148 -> 192.168.86.49:502
+06/16/2025-09:56:54.112658  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50148 -> 192.168.86.49:502
+06/16/2025-09:56:54.112658  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50148 -> 192.168.86.49:502
+06/16/2025-09:56:54.112715  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50148 -> 192.168.86.49:502
+06/16/2025-09:56:54.112715  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50148 -> 192.168.86.49:502
+06/16/2025-09:56:54.112715  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50148 -> 192.168.86.49:502
+06/16/2025-09:56:54.122993  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50148 -> 192.168.86.49:502
+06/16/2025-09:56:54.122993  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50148 -> 192.168.86.49:502
+06/16/2025-09:56:54.123033  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50148 -> 192.168.86.49:502
+06/16/2025-09:56:54.123033  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50148 -> 192.168.86.49:502
+06/16/2025-09:56:55.121316  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50149 -> 192.168.86.49:502
+06/16/2025-09:56:55.121316  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50149 -> 192.168.86.49:502
+06/16/2025-09:56:55.121316  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50149 -> 192.168.86.49:502
+06/16/2025-09:56:55.122393  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50149 -> 192.168.86.49:502
+06/16/2025-09:56:55.122393  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50149 -> 192.168.86.49:502
+06/16/2025-09:56:55.122393  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50149 -> 192.168.86.49:502
+06/16/2025-09:56:55.131914  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50149 -> 192.168.86.49:502
+06/16/2025-09:56:55.131914  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50149 -> 192.168.86.49:502
+06/16/2025-09:56:55.132019  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50149 -> 192.168.86.49:502
+06/16/2025-09:56:55.132019  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50149 -> 192.168.86.49:502
+06/16/2025-09:56:56.138002  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50150 -> 192.168.86.49:502
+06/16/2025-09:56:56.138002  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50150 -> 192.168.86.49:502
+06/16/2025-09:56:56.138054  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50150 -> 192.168.86.49:502
+06/16/2025-09:56:56.138054  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50150 -> 192.168.86.49:502
+06/16/2025-09:56:56.142519  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50150 -> 192.168.86.49:502
+06/16/2025-09:56:56.142692  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50150 -> 192.168.86.49:502
+06/16/2025-09:56:57.149580  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50151 -> 192.168.86.49:502
+06/16/2025-09:56:57.149580  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50151 -> 192.168.86.49:502
+06/16/2025-09:56:57.149736  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50151 -> 192.168.86.49:502
+06/16/2025-09:56:57.149736  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50151 -> 192.168.86.49:502
+06/16/2025-09:56:57.154602  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50151 -> 192.168.86.49:502
+06/16/2025-09:56:57.154709  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50151 -> 192.168.86.49:502
+06/16/2025-09:56:59.274642  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50096 -> 192.168.86.49:502
+06/16/2025-09:57:29.311896  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50152 -> 192.168.86.49:502
+06/16/2025-09:57:29.311943  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50152 -> 192.168.86.49:502
+06/16/2025-09:57:29.318717  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50152 -> 192.168.86.49:502
+06/16/2025-09:57:29.519711  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50153 -> 192.168.86.49:502
+06/16/2025-09:57:29.519711  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50153 -> 192.168.86.49:502
+06/16/2025-09:57:29.520494  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50153 -> 192.168.86.49:502
+06/16/2025-09:57:29.520494  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50153 -> 192.168.86.49:502
+06/16/2025-09:57:29.524956  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50153 -> 192.168.86.49:502
+06/16/2025-09:57:29.524997  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50153 -> 192.168.86.49:502
+06/16/2025-09:57:29.728500  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50154 -> 192.168.86.49:502
+06/16/2025-09:57:29.728500  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50154 -> 192.168.86.49:502
+06/16/2025-09:57:29.728500  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50154 -> 192.168.86.49:502
+06/16/2025-09:57:29.728543  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50154 -> 192.168.86.49:502
+06/16/2025-09:57:29.728543  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50154 -> 192.168.86.49:502
+06/16/2025-09:57:29.728543  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50154 -> 192.168.86.49:502
+06/16/2025-09:57:29.736552  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50154 -> 192.168.86.49:502
+06/16/2025-09:57:29.736552  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50154 -> 192.168.86.49:502
+06/16/2025-09:57:29.736659  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50154 -> 192.168.86.49:502
+06/16/2025-09:57:29.736659  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50154 -> 192.168.86.49:502
+06/16/2025-09:57:29.941763  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50155 -> 192.168.86.49:502
+06/16/2025-09:57:29.941763  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50155 -> 192.168.86.49:502
+06/16/2025-09:57:29.941763  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50155 -> 192.168.86.49:502
+06/16/2025-09:57:29.941815  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50155 -> 192.168.86.49:502
+06/16/2025-09:57:29.941815  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50155 -> 192.168.86.49:502
+06/16/2025-09:57:29.941815  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50155 -> 192.168.86.49:502
+06/16/2025-09:57:29.950577  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50155 -> 192.168.86.49:502
+06/16/2025-09:57:29.950577  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50155 -> 192.168.86.49:502
+06/16/2025-09:57:29.950691  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50155 -> 192.168.86.49:502
+06/16/2025-09:57:29.950691  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50155 -> 192.168.86.49:502
+06/16/2025-09:57:30.054528  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50105 -> 192.168.86.49:502
+06/16/2025-09:57:30.054528  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50105 -> 192.168.86.49:502
+06/16/2025-09:57:30.153565  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50156 -> 192.168.86.49:502
+06/16/2025-09:57:30.153565  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50156 -> 192.168.86.49:502
+06/16/2025-09:57:30.153565  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50156 -> 192.168.86.49:502
+06/16/2025-09:57:30.153700  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50156 -> 192.168.86.49:502
+06/16/2025-09:57:30.153700  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50156 -> 192.168.86.49:502
+06/16/2025-09:57:30.153700  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50156 -> 192.168.86.49:502
+06/16/2025-09:57:30.166231  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50156 -> 192.168.86.49:502
+06/16/2025-09:57:30.166231  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50156 -> 192.168.86.49:502
+06/16/2025-09:57:30.166279  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50156 -> 192.168.86.49:502
+06/16/2025-09:57:30.166279  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50156 -> 192.168.86.49:502
+06/16/2025-09:57:30.366469  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50157 -> 192.168.86.49:502
+06/16/2025-09:57:30.366469  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50157 -> 192.168.86.49:502
+06/16/2025-09:57:30.366469  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50157 -> 192.168.86.49:502
+06/16/2025-09:57:30.366517  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50157 -> 192.168.86.49:502
+06/16/2025-09:57:30.366517  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50157 -> 192.168.86.49:502
+06/16/2025-09:57:30.366517  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50157 -> 192.168.86.49:502
+06/16/2025-09:57:30.370949  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50157 -> 192.168.86.49:502
+06/16/2025-09:57:30.370949  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50157 -> 192.168.86.49:502
+06/16/2025-09:57:30.371078  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50157 -> 192.168.86.49:502
+06/16/2025-09:57:30.371078  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50157 -> 192.168.86.49:502
+06/16/2025-09:57:30.578420  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50158 -> 192.168.86.49:502
+06/16/2025-09:57:30.578420  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50158 -> 192.168.86.49:502
+06/16/2025-09:57:30.578420  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50158 -> 192.168.86.49:502
+06/16/2025-09:57:30.578531  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50158 -> 192.168.86.49:502
+06/16/2025-09:57:30.578531  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50158 -> 192.168.86.49:502
+06/16/2025-09:57:30.578531  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50158 -> 192.168.86.49:502
+06/16/2025-09:57:30.582454  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50158 -> 192.168.86.49:502
+06/16/2025-09:57:30.582454  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50158 -> 192.168.86.49:502
+06/16/2025-09:57:30.582511  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50158 -> 192.168.86.49:502
+06/16/2025-09:57:30.582511  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50158 -> 192.168.86.49:502
+06/16/2025-09:57:30.790835  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50159 -> 192.168.86.49:502
+06/16/2025-09:57:30.790835  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50159 -> 192.168.86.49:502
+06/16/2025-09:57:30.790835  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50159 -> 192.168.86.49:502
+06/16/2025-09:57:30.790882  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50159 -> 192.168.86.49:502
+06/16/2025-09:57:30.790882  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50159 -> 192.168.86.49:502
+06/16/2025-09:57:30.790882  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50159 -> 192.168.86.49:502
+06/16/2025-09:57:30.796072  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50159 -> 192.168.86.49:502
+06/16/2025-09:57:30.796072  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50159 -> 192.168.86.49:502
+06/16/2025-09:57:30.796197  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50159 -> 192.168.86.49:502
+06/16/2025-09:57:30.796197  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50159 -> 192.168.86.49:502
+06/16/2025-09:57:31.003646  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50160 -> 192.168.86.49:502
+06/16/2025-09:57:31.003646  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50160 -> 192.168.86.49:502
+06/16/2025-09:57:31.003646  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50160 -> 192.168.86.49:502
+06/16/2025-09:57:31.003699  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50160 -> 192.168.86.49:502
+06/16/2025-09:57:31.003699  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50160 -> 192.168.86.49:502
+06/16/2025-09:57:31.003699  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50160 -> 192.168.86.49:502
+06/16/2025-09:57:31.011433  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50160 -> 192.168.86.49:502
+06/16/2025-09:57:31.011433  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50160 -> 192.168.86.49:502
+06/16/2025-09:57:31.011538  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50160 -> 192.168.86.49:502
+06/16/2025-09:57:31.011538  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50160 -> 192.168.86.49:502
+06/16/2025-09:57:31.217658  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50161 -> 192.168.86.49:502
+06/16/2025-09:57:31.217658  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50161 -> 192.168.86.49:502
+06/16/2025-09:57:31.217658  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50161 -> 192.168.86.49:502
+06/16/2025-09:57:31.217786  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50161 -> 192.168.86.49:502
+06/16/2025-09:57:31.217786  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50161 -> 192.168.86.49:502
+06/16/2025-09:57:31.217786  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50161 -> 192.168.86.49:502
+06/16/2025-09:57:31.223081  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50161 -> 192.168.86.49:502
+06/16/2025-09:57:31.223081  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50161 -> 192.168.86.49:502
+06/16/2025-09:57:31.223195  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50161 -> 192.168.86.49:502
+06/16/2025-09:57:31.223195  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50161 -> 192.168.86.49:502
+06/16/2025-09:57:31.430144  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50162 -> 192.168.86.49:502
+06/16/2025-09:57:31.430144  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50162 -> 192.168.86.49:502
+06/16/2025-09:57:31.430144  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50162 -> 192.168.86.49:502
+06/16/2025-09:57:31.430270  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50162 -> 192.168.86.49:502
+06/16/2025-09:57:31.430270  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50162 -> 192.168.86.49:502
+06/16/2025-09:57:31.430270  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50162 -> 192.168.86.49:502
+06/16/2025-09:57:31.440353  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50162 -> 192.168.86.49:502
+06/16/2025-09:57:31.440353  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50162 -> 192.168.86.49:502
+06/16/2025-09:57:31.440500  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50162 -> 192.168.86.49:502
+06/16/2025-09:57:31.440500  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50162 -> 192.168.86.49:502
+06/16/2025-09:57:31.642854  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50163 -> 192.168.86.49:502
+06/16/2025-09:57:31.642854  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50163 -> 192.168.86.49:502
+06/16/2025-09:57:31.642854  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50163 -> 192.168.86.49:502
+06/16/2025-09:57:31.642969  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50163 -> 192.168.86.49:502
+06/16/2025-09:57:31.642969  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50163 -> 192.168.86.49:502
+06/16/2025-09:57:31.642969  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50163 -> 192.168.86.49:502
+06/16/2025-09:57:31.648656  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50163 -> 192.168.86.49:502
+06/16/2025-09:57:31.648656  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50163 -> 192.168.86.49:502
+06/16/2025-09:57:31.648784  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50163 -> 192.168.86.49:502
+06/16/2025-09:57:31.648784  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50163 -> 192.168.86.49:502
+06/16/2025-09:57:31.856179  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50164 -> 192.168.86.49:502
+06/16/2025-09:57:31.856179  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50164 -> 192.168.86.49:502
+06/16/2025-09:57:31.856179  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50164 -> 192.168.86.49:502
+06/16/2025-09:57:31.856949  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50164 -> 192.168.86.49:502
+06/16/2025-09:57:31.856949  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50164 -> 192.168.86.49:502
+06/16/2025-09:57:31.856949  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50164 -> 192.168.86.49:502
+06/16/2025-09:57:31.859819  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50164 -> 192.168.86.49:502
+06/16/2025-09:57:31.859819  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50164 -> 192.168.86.49:502
+06/16/2025-09:57:31.864239  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50164 -> 192.168.86.49:502
+06/16/2025-09:57:31.864239  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50164 -> 192.168.86.49:502
+06/16/2025-09:57:32.068170  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50165 -> 192.168.86.49:502
+06/16/2025-09:57:32.068170  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50165 -> 192.168.86.49:502
+06/16/2025-09:57:32.068170  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50165 -> 192.168.86.49:502
+06/16/2025-09:57:32.068223  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50165 -> 192.168.86.49:502
+06/16/2025-09:57:32.068223  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50165 -> 192.168.86.49:502
+06/16/2025-09:57:32.068223  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50165 -> 192.168.86.49:502
+06/16/2025-09:57:32.072221  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50165 -> 192.168.86.49:502
+06/16/2025-09:57:32.072221  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50165 -> 192.168.86.49:502
+06/16/2025-09:57:32.072337  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50165 -> 192.168.86.49:502
+06/16/2025-09:57:32.072337  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50165 -> 192.168.86.49:502
+06/16/2025-09:57:32.279112  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50166 -> 192.168.86.49:502
+06/16/2025-09:57:32.279112  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50166 -> 192.168.86.49:502
+06/16/2025-09:57:32.279112  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50166 -> 192.168.86.49:502
+06/16/2025-09:57:32.279822  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50166 -> 192.168.86.49:502
+06/16/2025-09:57:32.279822  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50166 -> 192.168.86.49:502
+06/16/2025-09:57:32.279822  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50166 -> 192.168.86.49:502
+06/16/2025-09:57:32.283038  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50166 -> 192.168.86.49:502
+06/16/2025-09:57:32.283038  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50166 -> 192.168.86.49:502
+06/16/2025-09:57:32.285714  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50166 -> 192.168.86.49:502
+06/16/2025-09:57:32.285714  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50166 -> 192.168.86.49:502
+06/16/2025-09:57:32.487622  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50167 -> 192.168.86.49:502
+06/16/2025-09:57:32.487622  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50167 -> 192.168.86.49:502
+06/16/2025-09:57:32.487783  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50167 -> 192.168.86.49:502
+06/16/2025-09:57:32.487783  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50167 -> 192.168.86.49:502
+06/16/2025-09:57:32.492597  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50167 -> 192.168.86.49:502
+06/16/2025-09:57:32.492638  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50167 -> 192.168.86.49:502
+06/16/2025-09:57:32.699347  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50168 -> 192.168.86.49:502
+06/16/2025-09:57:32.699347  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50168 -> 192.168.86.49:502
+06/16/2025-09:57:32.699404  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50168 -> 192.168.86.49:502
+06/16/2025-09:57:32.699404  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50168 -> 192.168.86.49:502
+06/16/2025-09:57:32.705688  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50168 -> 192.168.86.49:502
+06/16/2025-09:57:32.705792  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50168 -> 192.168.86.49:502
+06/16/2025-09:57:32.907291  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50169 -> 192.168.86.49:502
+06/16/2025-09:57:32.907291  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50169 -> 192.168.86.49:502
+06/16/2025-09:57:32.909472  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50169 -> 192.168.86.49:502
+06/16/2025-09:57:32.909472  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50169 -> 192.168.86.49:502
+06/16/2025-09:57:32.916191  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50169 -> 192.168.86.49:502
+06/16/2025-09:57:32.916191  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50169 -> 192.168.86.49:502
+06/16/2025-09:57:32.916312  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50169 -> 192.168.86.49:502
+06/16/2025-09:57:32.916312  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50169 -> 192.168.86.49:502
+06/16/2025-09:57:33.116982  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50170 -> 192.168.86.49:502
+06/16/2025-09:57:33.116982  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50170 -> 192.168.86.49:502
+06/16/2025-09:57:33.116982  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50170 -> 192.168.86.49:502
+06/16/2025-09:57:33.117036  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50170 -> 192.168.86.49:502
+06/16/2025-09:57:33.117036  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50170 -> 192.168.86.49:502
+06/16/2025-09:57:33.117036  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50170 -> 192.168.86.49:502
+06/16/2025-09:57:33.124280  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50170 -> 192.168.86.49:502
+06/16/2025-09:57:33.124280  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50170 -> 192.168.86.49:502
+06/16/2025-09:57:33.124387  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50170 -> 192.168.86.49:502
+06/16/2025-09:57:33.124387  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50170 -> 192.168.86.49:502
+06/16/2025-09:57:33.328734  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50171 -> 192.168.86.49:502
+06/16/2025-09:57:33.328734  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50171 -> 192.168.86.49:502
+06/16/2025-09:57:33.328734  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50171 -> 192.168.86.49:502
+06/16/2025-09:57:33.328846  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50171 -> 192.168.86.49:502
+06/16/2025-09:57:33.328846  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50171 -> 192.168.86.49:502
+06/16/2025-09:57:33.328846  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50171 -> 192.168.86.49:502
+06/16/2025-09:57:33.332943  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50171 -> 192.168.86.49:502
+06/16/2025-09:57:33.332943  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50171 -> 192.168.86.49:502
+06/16/2025-09:57:33.332991  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50171 -> 192.168.86.49:502
+06/16/2025-09:57:33.332991  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50171 -> 192.168.86.49:502
+06/16/2025-09:57:33.537251  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50172 -> 192.168.86.49:502
+06/16/2025-09:57:33.537251  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50172 -> 192.168.86.49:502
+06/16/2025-09:57:33.537251  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50172 -> 192.168.86.49:502
+06/16/2025-09:57:33.538122  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50172 -> 192.168.86.49:502
+06/16/2025-09:57:33.538122  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50172 -> 192.168.86.49:502
+06/16/2025-09:57:33.538122  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50172 -> 192.168.86.49:502
+06/16/2025-09:57:33.541421  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50172 -> 192.168.86.49:502
+06/16/2025-09:57:33.541421  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50172 -> 192.168.86.49:502
+06/16/2025-09:57:33.541526  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50172 -> 192.168.86.49:502
+06/16/2025-09:57:33.541526  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50172 -> 192.168.86.49:502
+06/16/2025-09:58:17.782143  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50175 -> 192.168.86.49:502
+06/16/2025-09:58:17.782208  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50175 -> 192.168.86.49:502
+06/16/2025-09:58:18.297722  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50176 -> 192.168.86.49:502
+06/16/2025-09:58:18.297722  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50176 -> 192.168.86.49:502
+06/16/2025-09:58:18.302954  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50176 -> 192.168.86.49:502
+06/16/2025-09:58:18.302954  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50176 -> 192.168.86.49:502
+06/16/2025-09:58:18.302976  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50176 -> 192.168.86.49:502
+06/16/2025-09:58:18.510943  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50177 -> 192.168.86.49:502
+06/16/2025-09:58:18.510943  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50177 -> 192.168.86.49:502
+06/16/2025-09:58:18.511059  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50177 -> 192.168.86.49:502
+06/16/2025-09:58:18.511059  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50177 -> 192.168.86.49:502
+06/16/2025-09:58:18.525773  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50177 -> 192.168.86.49:502
+06/16/2025-09:58:18.526005  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50177 -> 192.168.86.49:502
+06/16/2025-09:58:18.526005  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50177 -> 192.168.86.49:502
+06/16/2025-09:58:18.725816  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50178 -> 192.168.86.49:502
+06/16/2025-09:58:18.725816  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50178 -> 192.168.86.49:502
+06/16/2025-09:58:18.725816  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50178 -> 192.168.86.49:502
+06/16/2025-09:58:18.725926  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50178 -> 192.168.86.49:502
+06/16/2025-09:58:18.725926  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50178 -> 192.168.86.49:502
+06/16/2025-09:58:18.725926  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50178 -> 192.168.86.49:502
+06/16/2025-09:58:18.730928  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50178 -> 192.168.86.49:502
+06/16/2025-09:58:18.730928  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50178 -> 192.168.86.49:502
+06/16/2025-09:58:18.731057  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50178 -> 192.168.86.49:502
+06/16/2025-09:58:18.731057  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50178 -> 192.168.86.49:502
+06/16/2025-09:58:18.938295  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50179 -> 192.168.86.49:502
+06/16/2025-09:58:18.938295  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50179 -> 192.168.86.49:502
+06/16/2025-09:58:18.938295  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50179 -> 192.168.86.49:502
+06/16/2025-09:58:18.938821  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50179 -> 192.168.86.49:502
+06/16/2025-09:58:18.938821  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50179 -> 192.168.86.49:502
+06/16/2025-09:58:18.938821  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50179 -> 192.168.86.49:502
+06/16/2025-09:58:18.942158  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50179 -> 192.168.86.49:502
+06/16/2025-09:58:18.942158  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50179 -> 192.168.86.49:502
+06/16/2025-09:58:18.942201  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50179 -> 192.168.86.49:502
+06/16/2025-09:58:18.942201  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50179 -> 192.168.86.49:502
+06/16/2025-09:58:19.150647  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50180 -> 192.168.86.49:502
+06/16/2025-09:58:19.150647  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50180 -> 192.168.86.49:502
+06/16/2025-09:58:19.150647  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50180 -> 192.168.86.49:502
+06/16/2025-09:58:19.151345  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50180 -> 192.168.86.49:502
+06/16/2025-09:58:19.151345  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50180 -> 192.168.86.49:502
+06/16/2025-09:58:19.151345  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50180 -> 192.168.86.49:502
+06/16/2025-09:58:19.158964  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50180 -> 192.168.86.49:502
+06/16/2025-09:58:19.158964  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50180 -> 192.168.86.49:502
+06/16/2025-09:58:19.159005  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50180 -> 192.168.86.49:502
+06/16/2025-09:58:19.159005  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50180 -> 192.168.86.49:502
+06/16/2025-09:58:19.358632  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50181 -> 192.168.86.49:502
+06/16/2025-09:58:19.358632  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50181 -> 192.168.86.49:502
+06/16/2025-09:58:19.358632  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50181 -> 192.168.86.49:502
+06/16/2025-09:58:19.358688  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50181 -> 192.168.86.49:502
+06/16/2025-09:58:19.358688  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50181 -> 192.168.86.49:502
+06/16/2025-09:58:19.358688  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50181 -> 192.168.86.49:502
+06/16/2025-09:58:19.363342  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50181 -> 192.168.86.49:502
+06/16/2025-09:58:19.363342  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50181 -> 192.168.86.49:502
+06/16/2025-09:58:19.363392  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50181 -> 192.168.86.49:502
+06/16/2025-09:58:19.363392  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50181 -> 192.168.86.49:502
+06/16/2025-09:58:19.569514  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50182 -> 192.168.86.49:502
+06/16/2025-09:58:19.569514  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50182 -> 192.168.86.49:502
+06/16/2025-09:58:19.569514  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50182 -> 192.168.86.49:502
+06/16/2025-09:58:19.571250  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50182 -> 192.168.86.49:502
+06/16/2025-09:58:19.571250  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50182 -> 192.168.86.49:502
+06/16/2025-09:58:19.571250  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50182 -> 192.168.86.49:502
+06/16/2025-09:58:19.573752  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50182 -> 192.168.86.49:502
+06/16/2025-09:58:19.573752  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50182 -> 192.168.86.49:502
+06/16/2025-09:58:19.574570  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50182 -> 192.168.86.49:502
+06/16/2025-09:58:19.574570  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50182 -> 192.168.86.49:502
+06/16/2025-09:58:19.987149  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50183 -> 192.168.86.49:502
+06/16/2025-09:58:19.987149  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50183 -> 192.168.86.49:502
+06/16/2025-09:58:19.987149  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50183 -> 192.168.86.49:502
+06/16/2025-09:58:19.987259  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50183 -> 192.168.86.49:502
+06/16/2025-09:58:19.987259  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50183 -> 192.168.86.49:502
+06/16/2025-09:58:19.987259  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50183 -> 192.168.86.49:502
+06/16/2025-09:58:19.992303  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50183 -> 192.168.86.49:502
+06/16/2025-09:58:19.992303  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50183 -> 192.168.86.49:502
+06/16/2025-09:58:19.992342  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50183 -> 192.168.86.49:502
+06/16/2025-09:58:19.992342  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50183 -> 192.168.86.49:502
+06/16/2025-09:58:20.301228  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50118 -> 192.168.86.49:502
+06/16/2025-09:58:20.301228  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50118 -> 192.168.86.49:502
+06/16/2025-09:58:20.602832  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50184 -> 192.168.86.49:502
+06/16/2025-09:58:20.602832  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50184 -> 192.168.86.49:502
+06/16/2025-09:58:20.602832  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50184 -> 192.168.86.49:502
+06/16/2025-09:58:20.602881  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50184 -> 192.168.86.49:502
+06/16/2025-09:58:20.602881  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50184 -> 192.168.86.49:502
+06/16/2025-09:58:20.602881  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50184 -> 192.168.86.49:502
+06/16/2025-09:58:20.609297  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50184 -> 192.168.86.49:502
+06/16/2025-09:58:20.609297  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50184 -> 192.168.86.49:502
+06/16/2025-09:58:20.609419  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50184 -> 192.168.86.49:502
+06/16/2025-09:58:20.609419  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50184 -> 192.168.86.49:502
+06/16/2025-09:58:20.815723  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50185 -> 192.168.86.49:502
+06/16/2025-09:58:20.815723  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50185 -> 192.168.86.49:502
+06/16/2025-09:58:20.815723  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50185 -> 192.168.86.49:502
+06/16/2025-09:58:20.815770  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50185 -> 192.168.86.49:502
+06/16/2025-09:58:20.815770  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50185 -> 192.168.86.49:502
+06/16/2025-09:58:20.815770  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50185 -> 192.168.86.49:502
+06/16/2025-09:58:20.819968  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50185 -> 192.168.86.49:502
+06/16/2025-09:58:20.819968  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50185 -> 192.168.86.49:502
+06/16/2025-09:58:20.820076  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50185 -> 192.168.86.49:502
+06/16/2025-09:58:20.820076  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50185 -> 192.168.86.49:502
+06/16/2025-09:58:21.432392  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50186 -> 192.168.86.49:502
+06/16/2025-09:58:21.432392  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50186 -> 192.168.86.49:502
+06/16/2025-09:58:21.432392  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50186 -> 192.168.86.49:502
+06/16/2025-09:58:21.432440  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50186 -> 192.168.86.49:502
+06/16/2025-09:58:21.432440  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50186 -> 192.168.86.49:502
+06/16/2025-09:58:21.432440  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50186 -> 192.168.86.49:502
+06/16/2025-09:58:21.438946  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50186 -> 192.168.86.49:502
+06/16/2025-09:58:21.438946  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50186 -> 192.168.86.49:502
+06/16/2025-09:58:21.439049  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50186 -> 192.168.86.49:502
+06/16/2025-09:58:21.439049  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50186 -> 192.168.86.49:502
+06/16/2025-09:58:21.644399  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50187 -> 192.168.86.49:502
+06/16/2025-09:58:21.644399  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50187 -> 192.168.86.49:502
+06/16/2025-09:58:21.644399  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50187 -> 192.168.86.49:502
+06/16/2025-09:58:21.644454  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50187 -> 192.168.86.49:502
+06/16/2025-09:58:21.644454  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50187 -> 192.168.86.49:502
+06/16/2025-09:58:21.644454  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50187 -> 192.168.86.49:502
+06/16/2025-09:58:21.652860  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50187 -> 192.168.86.49:502
+06/16/2025-09:58:21.652860  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50187 -> 192.168.86.49:502
+06/16/2025-09:58:21.652961  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50187 -> 192.168.86.49:502
+06/16/2025-09:58:21.652961  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50187 -> 192.168.86.49:502
+06/16/2025-09:58:22.253539  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50188 -> 192.168.86.49:502
+06/16/2025-09:58:22.253539  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50188 -> 192.168.86.49:502
+06/16/2025-09:58:22.253539  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50188 -> 192.168.86.49:502
+06/16/2025-09:58:22.253583  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50188 -> 192.168.86.49:502
+06/16/2025-09:58:22.253583  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50188 -> 192.168.86.49:502
+06/16/2025-09:58:22.253583  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50188 -> 192.168.86.49:502
+06/16/2025-09:58:22.256756  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50188 -> 192.168.86.49:502
+06/16/2025-09:58:22.256756  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50188 -> 192.168.86.49:502
+06/16/2025-09:58:22.261513  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50188 -> 192.168.86.49:502
+06/16/2025-09:58:22.261513  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50188 -> 192.168.86.49:502
+06/16/2025-09:58:22.364665  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50104 -> 192.168.86.49:502
+06/16/2025-09:58:22.460365  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50189 -> 192.168.86.49:502
+06/16/2025-09:58:22.460365  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50189 -> 192.168.86.49:502
+06/16/2025-09:58:22.460408  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50189 -> 192.168.86.49:502
+06/16/2025-09:58:22.460408  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50189 -> 192.168.86.49:502
+06/16/2025-09:58:22.464132  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50189 -> 192.168.86.49:502
+06/16/2025-09:58:22.464239  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50189 -> 192.168.86.49:502
+06/16/2025-09:58:22.868462  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50190 -> 192.168.86.49:502
+06/16/2025-09:58:22.868462  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50190 -> 192.168.86.49:502
+06/16/2025-09:58:22.869058  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50190 -> 192.168.86.49:502
+06/16/2025-09:58:22.869058  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50190 -> 192.168.86.49:502
+06/16/2025-09:58:22.872026  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50190 -> 192.168.86.49:502
+06/16/2025-09:58:22.874340  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50190 -> 192.168.86.49:502
+06/16/2025-09:58:23.082064  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50191 -> 192.168.86.49:502
+06/16/2025-09:58:23.082064  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50191 -> 192.168.86.49:502
+06/16/2025-09:58:23.082113  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50191 -> 192.168.86.49:502
+06/16/2025-09:58:23.082113  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50191 -> 192.168.86.49:502
+06/16/2025-09:58:23.087116  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50191 -> 192.168.86.49:502
+06/16/2025-09:58:23.087229  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50191 -> 192.168.86.49:502
+06/16/2025-09:58:23.294034  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50192 -> 192.168.86.49:502
+06/16/2025-09:58:23.294034  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50192 -> 192.168.86.49:502
+06/16/2025-09:58:23.294086  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50192 -> 192.168.86.49:502
+06/16/2025-09:58:23.294086  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50192 -> 192.168.86.49:502
+06/16/2025-09:58:23.299853  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50192 -> 192.168.86.49:502
+06/16/2025-09:58:23.299853  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50192 -> 192.168.86.49:502
+06/16/2025-09:58:23.300001  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50192 -> 192.168.86.49:502
+06/16/2025-09:58:23.300001  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50192 -> 192.168.86.49:502
+06/16/2025-09:58:23.507459  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50193 -> 192.168.86.49:502
+06/16/2025-09:58:23.507459  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50193 -> 192.168.86.49:502
+06/16/2025-09:58:23.507459  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50193 -> 192.168.86.49:502
+06/16/2025-09:58:23.507582  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50193 -> 192.168.86.49:502
+06/16/2025-09:58:23.507582  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50193 -> 192.168.86.49:502
+06/16/2025-09:58:23.507582  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50193 -> 192.168.86.49:502
+06/16/2025-09:58:23.512370  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50193 -> 192.168.86.49:502
+06/16/2025-09:58:23.512370  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50193 -> 192.168.86.49:502
+06/16/2025-09:58:23.512469  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50193 -> 192.168.86.49:502
+06/16/2025-09:58:23.512469  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50193 -> 192.168.86.49:502
+06/16/2025-09:58:23.615613  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50117 -> 192.168.86.49:502
+06/16/2025-09:58:23.615613  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50117 -> 192.168.86.49:502
+06/16/2025-09:58:23.615808  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50131 -> 192.168.86.49:502
+06/16/2025-09:58:23.615808  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50131 -> 192.168.86.49:502
+06/16/2025-09:58:23.718716  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50194 -> 192.168.86.49:502
+06/16/2025-09:58:23.718716  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50194 -> 192.168.86.49:502
+06/16/2025-09:58:23.718716  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50194 -> 192.168.86.49:502
+06/16/2025-09:58:23.718826  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50194 -> 192.168.86.49:502
+06/16/2025-09:58:23.718826  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50194 -> 192.168.86.49:502
+06/16/2025-09:58:23.718826  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50194 -> 192.168.86.49:502
+06/16/2025-09:58:23.725264  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50194 -> 192.168.86.49:502
+06/16/2025-09:58:23.725264  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50194 -> 192.168.86.49:502
+06/16/2025-09:58:23.725368  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50194 -> 192.168.86.49:502
+06/16/2025-09:58:23.725368  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50194 -> 192.168.86.49:502
+06/16/2025-09:58:23.929426  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50195 -> 192.168.86.49:502
+06/16/2025-09:58:23.929426  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50195 -> 192.168.86.49:502
+06/16/2025-09:58:23.929426  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50195 -> 192.168.86.49:502
+06/16/2025-09:58:23.929474  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50195 -> 192.168.86.49:502
+06/16/2025-09:58:23.929474  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50195 -> 192.168.86.49:502
+06/16/2025-09:58:23.929474  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50195 -> 192.168.86.49:502
+06/16/2025-09:58:23.935596  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50195 -> 192.168.86.49:502
+06/16/2025-09:58:23.935596  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50195 -> 192.168.86.49:502
+06/16/2025-09:58:23.935699  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50195 -> 192.168.86.49:502
+06/16/2025-09:58:23.935699  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50195 -> 192.168.86.49:502
+06/16/2025-09:58:24.140250  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50196 -> 192.168.86.49:502
+06/16/2025-09:58:24.140250  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50196 -> 192.168.86.49:502
+06/16/2025-09:58:24.140250  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50196 -> 192.168.86.49:502
+06/16/2025-09:58:24.140294  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50196 -> 192.168.86.49:502
+06/16/2025-09:58:24.140294  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50196 -> 192.168.86.49:502
+06/16/2025-09:58:24.140294  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50196 -> 192.168.86.49:502
+06/16/2025-09:58:24.144174  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50196 -> 192.168.86.49:502
+06/16/2025-09:58:24.144174  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50196 -> 192.168.86.49:502
+06/16/2025-09:58:24.144285  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50196 -> 192.168.86.49:502
+06/16/2025-09:58:24.144285  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50196 -> 192.168.86.49:502
+06/16/2025-09:58:24.552544  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50197 -> 192.168.86.49:502
+06/16/2025-09:58:24.552544  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50197 -> 192.168.86.49:502
+06/16/2025-09:58:24.552544  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50197 -> 192.168.86.49:502
+06/16/2025-09:58:24.552574  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50197 -> 192.168.86.49:502
+06/16/2025-09:58:24.552574  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50197 -> 192.168.86.49:502
+06/16/2025-09:58:24.552574  [**] [1:1000003:0] Modbus Write Command [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50197 -> 192.168.86.49:502
+06/16/2025-09:58:24.558675  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50197 -> 192.168.86.49:502
+06/16/2025-09:58:24.558675  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50197 -> 192.168.86.49:502
+06/16/2025-09:58:24.558719  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50197 -> 192.168.86.49:502
+06/16/2025-09:58:24.558719  [**] [1:1000002:0] Modbus Rapid Fire DOS [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50197 -> 192.168.86.49:502
+06/16/2025-09:58:28.311239  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50119 -> 192.168.86.49:502
+06/16/2025-09:59:16.577515  [**] [1:1000001:0] Modbus Replay Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.86.46:50143 -> 192.168.86.49:502

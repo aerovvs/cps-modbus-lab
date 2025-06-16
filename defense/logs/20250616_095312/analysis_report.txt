@@ -1,0 +1,50 @@
+
+============================================================
+     CPS MODBUS SECURITY ANALYSIS REPORT
+============================================================
+
+[SCAN PERIOD]
+Start: 2025-06-16T09:53:19.861832-0700
+End:   2025-06-16T09:59:27.266109-0700
+
+[SUMMARY]
+Total Alerts: 822
+Unique Attackers: 1
+Total Modbus Events: 0
+
+[ATTACK BREAKDOWN]
+----------------------------------------
+Modbus Replay Attack:
+  Count: 376 (45.7%)
+  Sources: 192.168.86.46
+Modbus Rapid Fire DOS:
+  Count: 230 (28.0%)
+  Sources: 192.168.86.46
+Modbus Write Command:
+  Count: 216 (26.3%)
+  Sources: 192.168.86.46
+
+[ATTACKER ANALYSIS]
+----------------------------------------
+192.168.86.46: 822 attacks
+  - Modbus Replay Attack: 376
+  - Modbus Rapid Fire DOS: 230
+  - Modbus Write Command: 216
+
+[MODBUS FUNCTION ANALYSIS]
+----------------------------------------
+No Modbus events captured
+
+[ATTACK TIMELINE] (First and Last 5)
+----------------------------------------
+2025-06-16T09:53:56: Modbus Write Command, Modbus Write Command
+2025-06-16T09:53:58: Modbus Write Command, Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Replay Attack
+2025-06-16T09:54:00: Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS
+2025-06-16T09:54:02: Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Replay Attack
+2025-06-16T09:54:04: Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Replay Attack
+...
+2025-06-16T09:58:22: Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Rapid Fire DOS, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Rapid Fire DOS, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Replay Attack
+2025-06-16T09:58:23: Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Replay Attack, Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS
+2025-06-16T09:58:24: Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Write Command, Modbus Replay Attack, Modbus Rapid Fire DOS, Modbus Replay Attack, Modbus Rapid Fire DOS
+2025-06-16T09:58:28: Modbus Replay Attack
+2025-06-16T09:59:16: Modbus Replay Attack
