@@ -136,8 +136,8 @@ Your Pi‑controlled LED stands in for a real process actuator (valve, pump, rel
 |  1  | Red Led                     | Acts as ICS field device indicator |
 |  1  | 330 Ω resistor              | Limits current to ~10 mA           |
 |  1  | Breadboard                  | A half board is fine               |
-|  1  | Male-to-male jumper wires   |                                    |
-|  2  | Male-to-female jumper wires |                                    |
+|  1  | Male-to-male jumper wires   | Acts as a bridge                   |
+|  2  | Male-to-female jumper wires | Connection to GPIO pins            |
 
 ---
 
