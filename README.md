@@ -35,15 +35,26 @@ Everything runs on inexpensive hardware (Raspberry Pi 4 + LED) so you can repr
 
 ## System Architecture
 
-flowchart LR
-  subgraph "CPS Lab Network"
-    Attacker["MacBook Air\n192.168.1.100\n(Wi-Fi)"]
-    Mgmt["Linux Desktop\n192.168.1.110\n(Wi-Fi)"]
-    Pi["Raspberry Pi 4\n192.168.1.50\n(Ethernet)"]
-    Attacker -- "Modbus TCP (502)" --> Pi
-    Mgmt -- "SSH / mgmt" --> Pi
-  end
-  Pi -- "GPIO17" --> LED((LED))
+                      +------------------------------+
+                      | Attacker – MacBook Air       |
+                      | 192.168.1.100 (Wi‑Fi)        |
+                      | Scapy attack scripts         |
+                      +--------------+---------------+
+                                     |  Wi‑Fi
+                      +--------------v---------------+
+                      |    Home / Lab Router / AP    |
+                      +--------------+---------------+
+                                     |  Ethernet
+                      +--------------v---------------+
+                      | Raspberry Pi 4 (Target & IDS)|
+                      | 192.168.1.50 (Ethernet)      |
+                      | modbus_server.py             |
+                      | Suricata 7 IDS               |
+                      | LED on GPIO17                |
+                      +--------------+---------------+
+                                     |
+                                     v
+                                   [ LED ]
 
 | Role     | Host                 | Key Software                        |
 | -------- | -------------------- | ----------------------------------- |
