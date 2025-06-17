@@ -1,4 +1,4 @@
-# Introduction
+# 01 - Introduction
 
   Industrial control systems orchestrate the infrastructure that our society often takes for granted. They pump millions of gallons of water into municipal reservoirs, regulate electricity that flows through power grids, and sequence automated conveyors that keep supply chains going. The devices at the heart of these operations: programmable logic controllers (PLCs), distributed control systems (DCS), field sensors, actuators, and more belong to what is known as operational technology (OT). While the proliferation of personal computers and the growth of business-oriented information technology introduced robust authentication, encryption, and patching practices, operational technology prioritizes characteristics such as determinism and longevity. Consequently, many industrial protocols were created at a time when zero-trust principles were not standard practice and network segments were always air-gapped.
 
