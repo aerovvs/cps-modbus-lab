@@ -1,3 +1,5 @@
 # Technical Background
 
-  Industrial automation traffic often flows across the same copper wires and 802.11 frames.
+  Industrial automation traffic often flows across the same copper wires and 802.11 frames that carry ordinary office data, yet the protocols embedded in that traffic obey rules written before the public Internet existed. Modbus, made in 1979, was later repackaged inside TCP/IP so that controllers could be reached without all the dedicated cabling. This created a peculiar hybrid: a protocol that has the delivery of TCP while retaining a payload structure that expects every device to be trusted and deterministic. 
+
+  A standard Modbus/TCP frame begins with a seven byte Modbus Application Protocol (MBAP) header. The first two octets make the Transaction Identifier, which is a value chosen by the client so it can match responses to requests when multiple commands are pipelined across a single connection. The next two octets are the Protocol Identifier and are always set to 0000. Two more octets express the length of the subsequent bytes, including the Unit Identifier and the Protocol Data Unit (PDU). The final octet in the header is the Unit Identifier, which historically mapped to a RTU device address on a multi-drop serial line. In pure Ethernet deployments, the field is usually left at 0xFF or 0x11 as placeholders. 
