@@ -71,7 +71,6 @@ Everything runs on inexpensive hardware (Raspberry Pi 4 + LED) so you can repr
 * **Four purpose‑built attack scripts** showcasing different TTPs.
 * **Custom Suricata rules** with `detection_filter` to catch replay, DoS bursts, manipulation blinks, and covert channels.
 * **Automated validation harness** (`defense/scripts/test_all_attacks.sh`) to reproduce attacks + measure alert latency.
-* **Comprehensive documentation** ready for ISC2/academic submission.
 
 ---
 
