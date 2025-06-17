@@ -1,4 +1,4 @@
-# Technical Background
+# 02 - Technical Background
 
   Industrial automation traffic often flows across the same copper wires and 802.11 frames that carry ordinary office data, yet the protocols embedded in that traffic obey rules written before the public Internet existed. Modbus, made in 1979, was later repackaged inside TCP/IP so that controllers could be reached without all the dedicated cabling. This created a peculiar hybrid: a protocol that has the delivery of TCP while retaining a payload structure that expects every device to be trusted and deterministic. 
 
