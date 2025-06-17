@@ -104,7 +104,7 @@ cps-modbus-lab/
 │   └── logs/          # EVE‑JSON alerts
 ├── docs/              # Publication‑grade write‑ups
 ├── README.md          # this file
-└── requirements.txt   # Python deps (pip freeze)
+
 ```
 
 ---
