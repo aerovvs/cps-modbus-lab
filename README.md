@@ -96,15 +96,14 @@ Logs land in `defense/logs/` and are parsed by `analyze_complete.py`.
 
 ```text
 cps-modbus-lab/
-├── server/            # pure-socket Modbus daemon (target)
+├── server/            # pure socket Modbus daemon (target)
 ├── attack/            # Scapy attack scripts (attacker)
 ├── defense/
 │   ├── rules/         # Suricata rule set
 │   ├── scripts/       # IDS helpers + test harness
 │   └── logs/          # EVE‑JSON alerts
-├── docs/              # Publication‑grade write‑ups
+├── docs/              # write‑ups
 ├── README.md          # this file
-
 ```
 
 ---
