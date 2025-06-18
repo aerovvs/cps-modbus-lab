@@ -8,11 +8,11 @@ This document details my journey building and exploiting a cyber-physical system
 
 I started by setting up a realistic CPS using a Raspberry Pi 5 as my target industrial controller. The Pi would simulate a programmable logic controller (PLC) commonly found in industrial environments, with a simple LED representing a critical industrial output: perhaps a valve, pump, or circuit breaker in a real facility. The physical setup required careful attention to GPIO wiring, using a 220Ω resistor to protect the LED connected to GPIO pin 17.
 
-image
+![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/pi_setup.jpg)
 
 The network architecture consisted of my Raspberry Pi connected via Ethernet, while my MacBook attacker machine operated over WiFi. This mixed setup actually mirrors many real industrial networks where legacy wired systems interact with modern wireless human-machine interfaces. I discovered this created interesting network dynamics during my attacks.
 
-The adventure started with a blank microSD. I flashed Raspberry Pi OS Lite (32‑bit) using Raspberry Pi Imager. A quick ssh pi@raspberrypi.local proved the network path was alive.
+The adventure started with a blank microSD. I flashed Raspberry Pi OS Lite (32‑bit) using Raspberry Pi Imager. A quick ssh pi@<ip> proved the network path was alive.
 
 Wiring took two minutes using this guide:
 https://magazine.raspberrypi.com/articles/breadboard-tutorial
@@ -30,15 +30,13 @@ Hitting Ctrl‑Z leaves the interpreter suspended but still owning /dev/gpiochip
 
 Removing RPi.GPIO, installing rpi‑lgpio 0.6, and adding a defensive lgpio.gpio_free(chip, 17) before each claim cured the problem. A quick sudo pkill -f python3 cleaned it up.
 
-image
-
 The server implementation revealed the shocking simplicity of Modbus. Each packet follows a straightforward structure: transaction ID, protocol identifier, length, unit ID, function code, and data. No authentication headers, no encryption, no session management, just raw commands. When I first successfully controlled the LED through my custom server, I experienced a lot of excitement.
 
-image
+![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/start_modbus_server.png)
 
 mbpoll became the client. One command turned the LED on (0xFF00), another turned it off (0x0000). The Pi logs showed GPIO17 -> 1 and GPIO17 -> 0 exactly on cue, and Wireshark captured a pristine Function‑Code 05 frame. I saved that as pcap/legit_write_coil.pcap—a
 
-image
+![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/capture_led_on_pcap.png)
 
 ## Developing the Attacks
 ### Replay Attack Discovery
