@@ -14,7 +14,9 @@ The network architecture consisted of my Raspberry Pi connected via Ethernet, wh
 
 The adventure started with a blank microSD. I flashed Raspberry Pi OS Lite (32‑bit) using Raspberry Pi Imager. A quick ssh pi@<ip> proved the network path was alive.
 
-Wiring took two minutes using this guide:
+![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/ssh_ip.png)
+
+Wiring took fifteen minutes using this guide:
 https://magazine.raspberrypi.com/articles/breadboard-tutorial
 
 
@@ -39,37 +41,40 @@ The server implementation revealed the shocking simplicity of Modbus. Each packe
 My first attack came from a simple observation: if Modbus has no authentication or timestamps, what prevents me from replaying a captured command? I used tcpdump and Wireshark to capture a legitimate "LED ON" command from mbpoll, then wrote a Python script to replay it continuously.
 
 ![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/capture_led_on_pcap.png)
-[image](https://jmp.sh/OfNGoUN0)
+[Continuous Attack](https://jmp.sh/OfNGoUN0)
 
 ### Packet Manipulation and Physical Impact
 Building on the replay attack, I discovered I could create new commands by modifying captured packets. By changing just two bytes in the payload (0xFF00 to 0x0000), I could create an OFF command from an ON command. This led to my second attack: rapid state changes designed to cause physical wear.
 
-
+[DoS Attack](https://jumpshare.com/v/g7xjUSI7r9lY3486Azfs?b=qpYIGrbHeaMWkSxe4uE5)
 
 ### Simulating APTs
 The timed attack simulated how sophisticated malware like Stuxnet operates. Instead of immediate action, my code waited 10 seconds before launching a rapid sequence of commands. This delay could represent malware waiting for shift changes, specific dates, or operational conditions.
 
-image
+[Timed Attack](https://jumpshare.com/v/SCX53okyvYv9rUGKjGKz?b=qpYIGrbHeaMWkSxe4uE5)
 
 ### Covert Channel
 My favorite attack demonstrated data exfiltration through physical means. Using Morse code transmitted via LED blinks, I could leak information. The implementation required precise timing control to ensure readable patterns.
 
 Testing with "SOS" as my message, the LED blinked three short, three long, three short. In a real facility, this could be any controllable output. 
 
+[Covert Channel](https://jmp.sh/rsNRdbGj)
+
 ## Implementing Defense Mechanisms
 After successfully compromising my own system, I switched perspectives to defense.
 
-image
-
 The replay attack detection rule looked for five identical packets within ten secondss. DoS detection triggered on ten state changes within five seconds, far exceeding normal operational tempos.
+
+![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/attacklog_2.png)
+![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/attacklog_3.png)
 
 ## Detection Results
 Running all four attacks while monitoring with Suricata provided fascinating results. The IDS successfully detected every attack. However, detection isn't prevention. Despite generating alerts for every attack, the LED continued responding to malicious commands. This gap between detection and prevention mirrors real industrial environments where stopping suspicious traffic might halt critical processes.
 
-image
+![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/attacklog_1.png)
+![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/attacklog_4.png)
 
 ## Discoveries
 Checking Shodan revealed over 800,000+ Modbus devices exposed to the internet. Each one potentially vulnerable to the exact attacks I had just demonstrated. Water treatment plants, power generation facilities, manufacturing systems, which are all using the same insecure protocol.
 
-image
-
+![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/shodan_port502.png)
