@@ -8,7 +8,7 @@ from scapy.layers.inet import IP, TCP # packet layer access
 
 # path to pcap with modbus command
 # captured using: sudo tshark -i en0 -f "tcp port 502" -c 10 -w file_name
-pcap_path = packets = rdpcap("/path/to/pcap")
+pcap_path = "/path/to/pcap"
 
 # try to read pcap
 try:
