@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square) [![Modbus Attacks](https://img.shields.io/badge/Modbus-Attacks-red)](docs/AttackMethodology.md)
 [![ICS IDS](https://img.shields.io/badge/ICS-IDS-blue)](docs/DetectionStrategy.md)
 
-> **Hardware in the loop testbed for learning, demonstrating, and defending against real world Modbus‑TCP attacks on industrial control systems.**
+> **Hardware in the loop testbed for learning, demonstrating, and defending against real world Modbus/TCP attacks on industrial control systems.**
 
 ---
 
@@ -156,6 +156,12 @@ Full mapping in **MITRE\_ATTACK\_MAPPING.md**.
 ## Contributing
 
 Pull requests are welcome, especially additional attack modules, Suricata rule optimisations, or documentation improvements. Open an issue first to discuss major changes.
+
+---
+
+## Disclaimer
+
+Ctrl + C on attack and server scripts not working. Workaround is Ctrl + Z and then kill process. 
 
 ---
 
