@@ -1,7 +1,7 @@
 # CPS Modbus Security Lab
 
-![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square) [![Modbus Attacks](https://img.shields.io/badge/Modbus-Attacks-red)](docs/04_Attack_Methodology.md)
-[![ICS IDS](https://img.shields.io/badge/ICS-IDS-blue)](docs/05_Detection_Strategy.md)
+![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square) [![Modbus Attacks](https://img.shields.io/badge/Modbus-Attacks-red)](docs/AttackMethodology.md)
+[![ICS IDS](https://img.shields.io/badge/ICS-IDS-blue)](docs/DetectionStrategy.md)
 
 > **Hardware in the loop testbed for learning, demonstrating, and defending against real world Modbus‑TCP attacks on industrial control systems.**
 
