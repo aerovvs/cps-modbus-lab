@@ -10,7 +10,7 @@
 ## Table of Contents
 
 1. [Purpose](#purpose)
-2. [System Architecture](#system_architecture)
+2. [System Architecture](#systemarchitecture)
 3. [Key Features](#key-features)
 4. [Quick Start](#quick-start)
 5. [Repository Layout](#repository-layout)
