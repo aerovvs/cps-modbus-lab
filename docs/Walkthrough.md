@@ -34,20 +34,17 @@ The server implementation revealed the shocking simplicity of Modbus. Each packe
 
 ![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/start_modbus_server.png)
 
-mbpoll became the client. One command turned the LED on (0xFF00), another turned it off (0x0000). The Pi logs showed GPIO17 -> 1 and GPIO17 -> 0 exactly on cue, and Wireshark captured a pristine Function‑Code 05 frame. I saved that as pcap/legit_write_coil.pcap—a
-
-![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/capture_led_on_pcap.png)
-
 ## Developing the Attacks
 ### Replay Attack Discovery
 My first attack came from a simple observation: if Modbus has no authentication or timestamps, what prevents me from replaying a captured command? I used tcpdump and Wireshark to capture a legitimate "LED ON" command from mbpoll, then wrote a Python script to replay it continuously.
 
-image
+![](https://github.com/aerovvs/cps-modbus-lab/blob/main/media/capture_led_on_pcap.png)
+[image](https://jmp.sh/OfNGoUN0)
 
 ### Packet Manipulation and Physical Impact
 Building on the replay attack, I discovered I could create new commands by modifying captured packets. By changing just two bytes in the payload (0xFF00 to 0x0000), I could create an OFF command from an ON command. This led to my second attack: rapid state changes designed to cause physical wear.
 
-image
+
 
 ### Simulating APTs
 The timed attack simulated how sophisticated malware like Stuxnet operates. Instead of immediate action, my code waited 10 seconds before launching a rapid sequence of commands. This delay could represent malware waiting for shift changes, specific dates, or operational conditions.
