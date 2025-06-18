@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""timing attack - delayed payload execution"""
+"""timed attack - delayed payload execution"""
 import socket
 import time
 import sys
@@ -8,7 +8,7 @@ from scapy.all import *
 from scapy.layers.inet import IP, TCP
 
 # path to pcap
-pcap_path = "/Users/cj/Desktop/modbus_lab/cps-modbus-lab/cps-modbus-lab/pcap/one_write_coil_full.pcap"
+pcap_path = "/path/to/pcap"
 
 # read pcap
 try:
