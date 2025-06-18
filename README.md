@@ -10,17 +10,17 @@
 ## Table of Contents
 
 1. [Purpose](#purpose)
-2. [System Architecture](#-system-architecture)
-3. [Key Features](#-key-features)
-4. [Quick Start](#-quick-start)
-5. [Repository Layout](#-repository-layout)
-6. [Attack Scenarios](#-attack-scenarios)
-7. [Detection Strategy](#-detection-strategy)
-8. [Hardware Wiring](#-hardware-wiring)
-9. [MITRE ATT\&CK Mapping](#-mitre-attck-mapping)
-10. [Contributing](#-contributing)
-11. [Disclaimer](#-disclaimer)
-12. [License](#-license)
+2. [System Architecture](#system-architecture)
+3. [Key Features](#key-features)
+4. [Quick Start](#quick-start)
+5. [Repository Layout](#repository-layout)
+6. [Attack Scenarios](#attack-scenarios)
+7. [Detection Strategy](#detection-strategy)
+8. [Hardware Wiring](#hardware-wiring)
+9. [MITRE ATT\&CK Mapping](#mitre-attck-mapping)
+10. [Contributing](#contributing)
+11. [Disclaimer](#disclaimer)
+12. [License](#license)
 
 ---
 
