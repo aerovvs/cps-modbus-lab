@@ -29,7 +29,7 @@ This document maps each attack demonstrated in the CPS Modbus Security Lab to co
 - Used legitimate Modbus TCP protocol (port 502)
 - No custom protocols or exploits needed
 
-## Attack 2: Blinking DOS Attack (blinking_attack.py)
+## Attack 2: Blinking DoS Attack (blinking_attack.py)
 
 ### Primary Techniques
 
@@ -54,13 +54,13 @@ This document maps each attack demonstrated in the CPS Modbus Security Lab to co
 - Exploited standard Modbus port (502)
 - Blended with legitimate traffic
 
-## Attack 3: Timing Attack (timing_attack.py)
+## Attack 3: Timing Attack (timed_attack.py)
 
 ### Primary Techniques
 
 **T0873 - Project File Infection**
 - **What it is:** Malware that waits before executing
-- **How we did it:** 10-second delay before payload activation
+- **How we did it:** 10 second delay before payload activation
 - **Why it worked:** Mimics logic bomb behavior in infected control logic
 
 **T0853 - Scripting**
@@ -76,7 +76,7 @@ This document maps each attack demonstrated in the CPS Modbus Security Lab to co
 ### Attack Chain
 1. Initial Access → Wait (dormant) → Execution (burst) → Impact (LED stuck on)
 
-## Attack 4: Pattern Attack - Covert Channel (pattern_attack.py)
+## Attack 4: Pattern Attack - Covert Channel (secret_message_attack.py)
 
 ### Primary Techniques
 
@@ -131,8 +131,8 @@ This document maps each attack demonstrated in the CPS Modbus Security Lab to co
 | Our Attack | Real Incident | Technique Used |
 |------------|---------------|----------------|
 | Continuous Replay | Ukrainian Power Grid 2015 | T0855, T0814 |
-| Blinking DOS | Stuxnet centrifuge damage | T0836, T0858 |
-| Timing Attack | Triton/TRISIS safety system | T0873, T0853 |
+| Blinking DoS | Stuxnet centrifuge damage | T0836, T0858 |
+| Timed Attack | Triton/TRISIS safety system | T0873, T0853 |
 | Covert Channel | Flame malware data exfil | T0820, T0889 |
 
 ## Detection Opportunities
