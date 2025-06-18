@@ -3,11 +3,11 @@
 
 ## Understanding the Attack Surface
 
-When I first started researching industrial control system vulnerabilities, I expected to find complex, sophisticated weaknesses requiring advanced exploitation techniques. What I discovered instead was almost suprisingly simple: these systems were designed in an era when security wasn't even an afterthought, it simply wasn't a thought at all. The Modbus protocol, still widely deployed across critical infrastructure, embodies this perfectly. It's like finding a bank vault with a screen door for security.
+When I first started researching industrial control system vulnerabilities, I expected to find complex, sophisticated weaknesses requiring advanced exploitation techniques. What I discovered instead was almost surprisingly simple: these systems were designed in an era when security wasn't a thought at all. The Modbus protocol, still widely deployed across critical infrastructure, embodies this perfectly. It's like finding a bank vault with a screen door for security.
 
 The attack surface of a Modbus/TCP system is essentially its entire network interface. There's no authentication handshake to bypass, no encrypted session to break. If you can send packets to port 502, you can control the system. This simplicity is actually what makes these systems so dangerous from a security perspective. You either have no access or complete control.
 
-My methodology focused on demonstrating four distinct categories of attacks, each highlighting a different aspect of industrial control system vulnerabilities. These weren't chosen randomly but represent real attack patterns observed in actual incidents against critical infrastructure. The progression from simple replay to sophisticated covert channels mirrors how threat actora escalate their capabilities when targeting industrial systems.
+My methodology focused on demonstrating four distinct categories of attacks, each highlighting a different aspect of industrial control system vulnerabilities. These weren't chosen randomly but represent real attack patterns observed in actual incidents against critical infrastructure. The progression from simple replay to sophisticated covert channels mirrors how threat actors escalate their capabilities when targeting industrial systems.
 
 ## The Replay Attack
 
