@@ -51,7 +51,7 @@ echo "   This runs once (waits 10 seconds then flashes)"
 read -p "   Press Enter when attack is running..."
 wait_with_progress 20 "   Capturing"
 
-echo -e "\n4. Pattern Attack"
+echo -e "\n4. Covert Channel Attack"
 echo "   Run: python3 secret_message_attack.py raspberrypi.local SOS"
 echo "   This sends SOS in Morse code"
 read -p "   Press Enter when attack is running..."
