@@ -39,7 +39,7 @@ echo "   Let it run for 30 seconds..."
 read -p "   Press Enter when attack is running..."
 wait_with_progress 30 "   Capturing"
 
-echo -e "\n2. Blinking Attack (DOS)"
+echo -e "\n2. Blinking Attack (DoS)"
 echo "   Run: python3 blinking_attack.py raspberrypi.local"
 echo "   Let it run for 30 seconds..."
 read -p "   Press Enter when attack is running..."
