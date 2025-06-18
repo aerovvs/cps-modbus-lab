@@ -19,7 +19,8 @@
 8. [Hardware Wiring](#-hardware-wiring)
 9. [MITRE ATT\&CK Mapping](#-mitre-attck-mapping)
 10. [Contributing](#-contributing)
-11. [License](#-license)
+11. [Disclaimer](#-disclaimer)
+12. [License](#-license)
 
 ---
 
