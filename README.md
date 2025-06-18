@@ -9,8 +9,8 @@
 
 ## Table of Contents
 
-1. [Purpose](##-purpose)
-2. [System Architecture](##-system-architecture)
+1. [Purpose](#-purpose)
+2. [System Architecture](#-system-architecture)
 3. [Key Features](#-key-features)
 4. [Quick Start](#-quick-start)
 5. [Repository Layout](#-repository-layout)
@@ -19,7 +19,7 @@
 8. [Hardware Wiring](#-hardware-wiring)
 9. [MITRE ATT\&CK Mapping](#-mitre-attck-mapping)
 10. [Contributing](#-contributing)
-11. [Disclaimer](##-disclaimer)
+11. [Disclaimer](#-disclaimer)
 12. [License](#-license)
 
 ---
@@ -31,7 +31,7 @@ This project provides an end‑to‑end **Cyber‑Physical System (CPS)** lab th
 * **Offensive techniques** — replay, command manipulation, timed logic bombs, and covert Morse signaling against a live Modbus process.
 * **Defensive counter‑measures** — Suricata 7 IDS with custom, rate‑limited rules that reliably flag each attack class with ≤10 s mean detection latency.
 
-Everything runs on inexpensive hardware (Raspberry Pi 4 + LED) so you can reproduce the full kill chain at home without PLCs or SCADA gear.
+Everything runs on inexpensive hardware (Raspberry Pi + LED) so you can reproduce the full kill chain at home without PLCs or SCADA gear.
 
 ---
 
@@ -68,7 +68,7 @@ Everything runs on inexpensive hardware (Raspberry Pi 4 + LED) so you can repr
 
 ## Key Features
 
-* **Pure‑socket Modbus server** (no PyModbus) for transparent packet introspection.
+* **Pure‑socket Modbus server** for transparent packet introspection.
 * **Four purpose‑built attack scripts** showcasing different TTPs.
 * **Custom Suricata rules** with `detection_filter` to catch replay, DoS bursts, manipulation blinks, and covert channels.
 * **Automated validation harness** (`defense/scripts/test_all_attacks.sh`) to reproduce attacks + measure alert latency.
