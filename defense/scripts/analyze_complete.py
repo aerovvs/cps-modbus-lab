@@ -32,12 +32,12 @@ class ModbusAnalyzer:
                         event = json.loads(line)
                         timestamp = event.get('timestamp')
                         
-                        # Track time range
+                        # track time range
                         if not self.stats['start_time']:
                             self.stats['start_time'] = timestamp
                         self.stats['end_time'] = timestamp
                         
-                        # Categorize events
+                        # categorize events
                         if event.get('event_type') == 'alert':
                             self.alerts.append(event)
                             src_ip = event.get('src_ip')
@@ -64,7 +64,7 @@ class ModbusAnalyzer:
         attack_timeline = defaultdict(list)
         
         for alert in self.alerts:
-            # Get attack details
+            # get attack details
             signature = alert['alert']['signature']
             src_ip = alert.get('src_ip', 'unknown')
             timestamp = alert['timestamp']
@@ -72,8 +72,8 @@ class ModbusAnalyzer:
             attack_types[signature] += 1
             attack_sources[src_ip] += 1
             
-            # Create timeline
-            time_key = timestamp.split('.')[0]  # Group by second
+            # create timeline
+            time_key = timestamp.split('.')[0]  # group by second
             attack_timeline[time_key].append(signature)
         
         return attack_types, attack_sources, attack_timeline
@@ -93,7 +93,7 @@ class ModbusAnalyzer:
         print(f"Unique Attackers: {len(self.stats['unique_attackers'])}")
         print(f"Total Modbus Events: {len(self.modbus_events)}")
         
-        # Attack breakdown
+        # attack breakdown
         attack_types, attack_sources, timeline = self.analyze_attacks()
         
         print(f"\n[ATTACK BREAKDOWN]")
@@ -103,7 +103,7 @@ class ModbusAnalyzer:
             print(f"{attack}:")
             print(f"  Count: {count} ({percentage:.1f}%)")
             
-            # Find which IPs performed this attack
+            # find which IPs performed this attack
             attackers_for_this = []
             for alert in self.alerts:
                 if alert['alert']['signature'] == attack:
@@ -117,7 +117,7 @@ class ModbusAnalyzer:
         for ip, count in attack_sources.most_common():
             print(f"{ip}: {count} attacks")
             
-            # What attacks did this IP perform?
+            # what attacks did this IP perform?
             ip_attacks = Counter()
             for alert in self.alerts:
                 if alert.get('src_ip') == ip:
@@ -140,21 +140,21 @@ class ModbusAnalyzer:
         else:
             print("No Modbus events captured")
         
-        # Attack timeline sample
+        # attack timeline sample
         print(f"\n[ATTACK TIMELINE] (First and Last 5)")
         print("-" * 40)
         
         sorted_timeline = sorted(timeline.items())
         if len(sorted_timeline) > 10:
-            # Show first 5
+            # show first 5
             for time, attacks in sorted_timeline[:5]:
                 print(f"{time}: {', '.join(attacks)}")
             print("...")
-            # Show last 5
+            # show last 5
             for time, attacks in sorted_timeline[-5:]:
                 print(f"{time}: {', '.join(attacks)}")
         else:
-            # Show all
+            # show all
             for time, attacks in sorted_timeline:
                 print(f"{time}: {', '.join(attacks)}")
     
@@ -162,7 +162,7 @@ class ModbusAnalyzer:
         """Save detailed report to file"""
         report_file = os.path.join(output_dir, 'analysis_report.txt')
         
-        # Redirect stdout to file
+        # redirect stdout to file
         orig_stdout = sys.stdout
         with open(report_file, 'w') as f:
             sys.stdout = f
@@ -171,7 +171,7 @@ class ModbusAnalyzer:
         
         print(f"\n[+] Report saved to: {report_file}")
         
-        # Also save JSON summary
+        # also save JSON summary
         summary = {
             'scan_period': {
                 'start': self.stats['start_time'],
@@ -189,11 +189,11 @@ class ModbusAnalyzer:
         print(f"[+] JSON summary saved to: {summary_file}")
 
 def main():
-    # Get log directory from command line or use latest
+    # get log directory from command line or use latest
     if len(sys.argv) > 1:
         log_dir = sys.argv[1]
     else:
-        # Find latest log directory
+        # find latest log directory
         base_dir = os.path.expanduser('~/cps-modbus-lab/defense/logs/')
         try:
             dirs = [d for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]
@@ -203,18 +203,18 @@ def main():
     
     print(f"[+] Analyzing logs from: {log_dir}")
     
-    # Create analyzer
+    # create analyzer
     analyzer = ModbusAnalyzer()
     
-    # Parse logs
+    # parse logs
     if analyzer.parse_logs():
-        # Generate report
+        # generate report
         analyzer.generate_report()
         
-        # Save to log directory
+        # save to log directory
         analyzer.save_report(log_dir)
         
-        # Quick stats
+        # quick stats
         print(f"\n[QUICK STATS]")
         print(f"Total Alerts: {analyzer.stats['total_alerts']}")
         print(f"Unique Attackers: {len(analyzer.stats['unique_attackers'])}")
