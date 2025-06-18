@@ -16,17 +16,17 @@ Total Modbus Events: 0
 ----------------------------------------
 Modbus Replay Attack:
   Count: 376 (45.7%)
-  Sources: 192.168.86.46
+  Sources: <ip>
 Modbus Rapid Fire DOS:
   Count: 230 (28.0%)
-  Sources: 192.168.86.46
+  Sources: <ip>
 Modbus Write Command:
   Count: 216 (26.3%)
-  Sources: 192.168.86.46
+  Sources: <ip>
 
 [ATTACKER ANALYSIS]
 ----------------------------------------
-192.168.86.46: 822 attacks
+<ip>: 822 attacks
   - Modbus Replay Attack: 376
   - Modbus Rapid Fire DOS: 230
   - Modbus Write Command: 216
