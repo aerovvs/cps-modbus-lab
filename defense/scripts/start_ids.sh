@@ -2,7 +2,7 @@
 # Complete IDS startup with logging
 
 echo "╔════════════════════════════════════════╗"
-echo "║   CPS Modbus IDS - Full Monitoring    ║"
+echo "║   CPS Modbus IDS - Full Monitoring     ║"
 echo "╚════════════════════════════════════════╝"
 echo
 
@@ -47,7 +47,7 @@ sudo tail -f /var/log/suricata/fast.log | while IFS= read -r line; do
     # Display with colors
     if [[ $line == *"Replay Attack"* ]]; then
         echo -e "${RED}[REPLAY]${NC} $line"
-    elif [[ $line == *"DOS"* ]]; then
+    elif [[ $line == *"DoS"* ]]; then
         echo -e "${RED}[DOS]${NC} $line"
     elif [[ $line == *"Covert"* ]]; then
         echo -e "${YELLOW}[COVERT]${NC} $line"
