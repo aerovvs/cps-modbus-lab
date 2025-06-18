@@ -7,7 +7,7 @@ from scapy.all import rdpcap, Raw
 from scapy.layers.inet import TCP
 
 # path to pcap
-packets = rdpcap("/Users/cj/Desktop/modbus_lab/cps-modbus-lab/cps-modbus-lab/pcap/one_write_coil_full.pcap")
+packets = rdpcap("/path/to/pcap")
 
 # find the modbus on payload
 led_on_payload = None
