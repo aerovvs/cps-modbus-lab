@@ -1,4 +1,4 @@
-# Detection Strategy
+# 05 - Detection Strategy
 
 ## The Challenge of Industrial Intrusion Detection
 
