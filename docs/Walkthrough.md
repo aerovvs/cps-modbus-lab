@@ -46,7 +46,7 @@ My first attack came from a simple observation: if Modbus has no authentication 
 ### Packet Manipulation and Physical Impact
 Building on the replay attack, I discovered I could create new commands by modifying captured packets. By changing just two bytes in the payload (0xFF00 to 0x0000), I could create an OFF command from an ON command. This led to my second attack: rapid state changes designed to cause physical wear.
 
-[DoS Attack](https://jumpshare.com/v/g7xjUSI7r9lY3486Azfs?b=qpYIGrbHeaMWkSxe4uE5)
+[Blinking Attack](https://jumpshare.com/v/g7xjUSI7r9lY3486Azfs?b=qpYIGrbHeaMWkSxe4uE5)
 
 ### Simulating APTs
 The timed attack simulated how sophisticated malware like Stuxnet operates. Instead of immediate action, my code waited 10 seconds before launching a rapid sequence of commands. This delay could represent malware waiting for shift changes, specific dates, or operational conditions.
